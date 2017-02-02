@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+body {
+	font-family: 'Roboto';
+	margin: 0;
+	background-color: white;
+}
+
+header {
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 1;
+	text-align: right;
+	letter-spacing: 1.6px;
+
+	padding: 15px 5px 15px 5px;
+	background-color: #f8f8f8;
+	border-bottom: 1px lightgray dotted; /* dotted,dashed,solid,double,groove,ridge,inset,outset,none, [mixed] _ _ _ _ */
+}
+
+footer {
+	font-size: 10;
+	font-weight: 100;
+	line-height: .5;
+	text-align: center;
+	letter-spacing: 1.6px;
+
+	padding: 15px 5px 15px 5px;
+	/*background-color: #f8f8f8;*/
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+footer a:hover {
+	border: none;
+}
+
+header a {
+	margin-right: 20px;
+}
+
+a {
+	color: #EF6C00;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dotted;
+}
+
+a:visited {
+	color: #BF360C;
+}
+
+#email {
+	display: none;
+	width: 100px;
+	height: auto;
+}
+/*http://www.w3schools.com/images/colorpicker.gif*/
+
+/* 
+
+1. animate hello there text
+2. page break
+3. about me button
+4. links to work
+4.5. footer saying copyright Carlo Cruz-Albrecht, don't enable it tho
+5. popup about me button
+6. click me penguin
+7. animation penguin
+8. enable about me, contact (open with img to email for now), and github links
+
+9. later make fancy preview for links
+*/
+
+#top_container {
+	letter-spacing: 1.6px;
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+	border-bottom: 1px solid #FF5722;
+}
+
+h1 {
+	visibility: hidden;
+	letter-spacing: 1.7;
+	font-size: 60px;
+	font-weight: 100;
+	color: #E65100
+}
+
+#top_container p {
+	color: #53463b;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#main_container {
+	margin: auto;
+	width: 80%;
+	max-width: 700px;
+}
+
+#about_div {
+	width: 20%;
+	max-width: 200px;
+	margin: 20px auto;
+}
+
+/*#main_container button {
+	width: 100%;
+}*/
+
+button {
+	font-size: 15px;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border-radius: 2px;
+	background-color: #FF7043;
+	border: 0;
+	box-shadow: 2px 2px 0px #FFAC92;
+	/*box-shadow: v, h, blur, spread, color, inset*/
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+	box-shadow: 1px 1px 0px #FFAC92;
+}
+
+button:hover {
+	background-color: #F46639;
+
+}
+
+#about_me {
+	display: none;
+}
+
+#main_container p {
+	border-radius: 5px;
+	background-color: #FFEDDD;
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 1.2px;
+	color: #4C3B36;
+}
+
+#links_container {
+	position: relative;
+	margin: auto;
+	margin-bottom: 50px;
+	width: 90%;
+	max-width: 800px;
+}
+
+#links_container a {
+	padding: 10px 10px 10px 10px;
+	display: block;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #E84D00;
+}
+
+#links_container a:hover {border:none;background:#E6E9FF!important;} /* FFEFD5*/
+
+#links_container a:visited {color:#E84D00;} /* NOT BACKGROUND COLOR!*/
+
+#links_container nav {
+	position: absolute;
+	width: 170px;
+	height: 100%;
+}
+
+#links_container nav a{
+	background-color: #fffbf5;
+}
+
+.section_group {
+	background-color: #E6E9FF;
+	margin-left: 170px;
+}
+
+section {
+	background-color: #E6E9FF;
+	margin: auto;
+	width: 90%;
+	padding-top: 5px;
+	overflow: auto;
+}
+
+#button_section {
+	text-align: center;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+section button {
+	margin: 10px 10px 10px 10px;
+}
+
+
+form {
+	margin: 0;
+	padding: 0;
+}
+section p {
+	font-weight: 400;
+	color: #3B3330;
+}
+
+#links_container img {
+	float: right;
+	max-height: 200px;
+	max-width: auto;
+	margin: 10px 10px 10px 10px;
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7 {
+	display: none;
+}
+
+
+#penguin {
+	position: fixed;
+	top: 100px;
+	right: 100px;
+	width: 25px;
+	height: auto;
+}
+
+#penguin_text {
+	position: fixed;
+	top: 70px;
+	right: 60px;
+	width: 50px;
+	height: auto;
+	display: none;
+}
+
+/*#penguin {
+	float: right;
+	padding: 40px 90px 50px 30px;
+	width: 25px;
+	height: auto;
+}*/
