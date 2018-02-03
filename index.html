@@ -1,11 +1,12 @@
 <html>
 
 <head>
-	<title>Webcoding Experiment</title>
+	<title>Carlo Cruz-Albrecht</title>
 
-	<link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/thin-science-space/24/thin-1045_space_moon_planet_galaxy_saturn-512.png"> 
+	<link rel="shortcut icon" href="./files/penguin.png"> 
 
-	<link rel="stylesheet" href="https://rawgit.com/carlocrza/website/master/style1.css">
+	<link rel="stylesheet" href="./style1.css">
+	<link rel="stylesheet" href="./style2.css">
 
 	<!-- for facebook / preview -->
 	<meta property="og:url"                content="" />
@@ -20,9 +21,11 @@
 
 <header>
 	<nav>
-		<a href="javascript:toggleVisibility('about_me')">ABOUT</a> <!-- make all of these popups -->
-		<a href="javascript:toggleContact()"><span id="contact">CONTACT</span><img id="email" src="https://cdn.rawgit.com/carlocrza/website/master/email.png"></a>
-		<a href="http://github.com/carlocrza">GITHUB</a>
+		<a href="#links_container">PROJECTS</a> <!-- make all of these popups -->
+		<a href="#travel_container">TRAVEL</a>
+		<a href="#contact_container">CONTACT</a>
+		<!--<a href="javascript:toggleContact()"><span id="contact">CONTACT</span><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkely.edu" target="_blank"><img id="email" src="https://cdn.rawgit.com/carlocrza/website/master/email.png"/></a></a>-->
+		<a href="http://github.com/carlocrza" target="_blank">GITHUB</a>
 	</nav>
 </header>
 
@@ -46,76 +49,94 @@
 	 -->
 
 <!-- learn css layout http://learnlayout.com/margin-auto.html-->
-
 <div id="top_container">
-<h1 id="hello_text"><span id="hello1">H</span><span id="hello2">e</span><span id="hello3">l</span><span id="hello4">l</span><span id="hello5">o</span><span id="hello6">&nbsp</span><span id="hello7">t</span><span id="hello8">h</span><span id="hello9">e</span><span id="hello10">r</span><span id="hello11">e</span><span id="hello12">.</span><span id="hello13">.</span><span id="hello14">.</span></h1>
 
-<p>I'm Carlo and this is my website.</p>
-<p>See what I've been up to through the links below. <a href="https://github.com/carlocrza/website/raw/master/resume%20f17.pdf">Resume</a></p>
+<h1 id="title1">Hi there,<br><h1 id="title2" style="padding-left:1em">I'm Carlo Cruz-Albrecht</h1>
+
+<!--<h1 id="hello_text"><span id="hello1">H</span><span id="hello2">e</span><span id="hello3">l</span><span id="hello4">l</span><span id="hello5">o</span><span id="hello6">&nbsp</span><span id="hello7">t</span><span id="hello8">h</span><span id="hello9">e</span><span id="hello10">r</span><span id="hello11">e</span><span id="hello12">.</span><span id="hello13">.</span><span id="hello14">.</span></h1>-->
+
+<p>I'm a sophomore at UC Berkeley, studying Computer Science.</p>
+
+<p>See what I've been up to through the links below. Or click the penguin.
+
+<center><a href="./files/resume.pdf" target="new" id="resume">RESUME</a></center>
+<br>
 </div>
 
 <div id="main_container">
 
-	<div id="about_div"><button onclick="toggleVisibility('about_me')">About Me</button></div>
+	<!--<div id="about_div"><center><button onclick="toggleVisibility('about_me')">About Me</button></center></div>-->
 	
-	<p id="about_me">My name is Carlo Cruz-Albrecht. I am a sophomore studying Computer Science at UC Berkeley. Curious about the world, excited to share and expand my skills. Click the penguin for fun.</p>
+		<!--<div class="column">&nbsp;</div>
+
+		<div class="column">&nbsp;</div>
+		<div id="my_text" class="column">designer<br><br>software engineer<br><br>aspiring world traveler<br></div>-->
+		<div class="column">software engineer<br><br>designer<br><br>python enthusiast<br><br>aspiring world traveler<br></div>
+	
+
 </div>
 
 <div id="links_container">
 	<nav>
-		<a onclick="openLink(this,1)" id="first_link">Cosmos Web Game</a>
-		<a onclick="openLink(this,2)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,3)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,4)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,5)" style="font-size:12px">In construction...</a>
+		<a onclick="openLink(this,1)" id="first_link">PROJECTS</a>
+		<a onclick="openLink(this,2)" style="font-size: 20px">EXPERIENCE</a>
+		<a onclick="openLink(this,3)">SKILLS</a>
+		<a onclick="openLink(this,4)">TECHNICAL EDUCATION</a>
+		<!--<a onclick="openLink(this,5)" style="font-size:12px">In construction...</a>
 		<a onclick="openLink(this,6)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,7)" style="font-size:12px">In construction...</a>
+		<a onclick="openLink(this,7)" style="font-size:12px">In construction...</a>-->
 	</nav>
 	<div class="section_group" id="link1">
 		<section>
-			<h3>Cosmos</h3>
-			<p>Cosmos is a web game -- created entirely using Javascript, HTML, and CSS -- that allows the user to interactively traverse a 'galaxy' on any browser-supported device. The user is a ball in the galaxy with the goal of surviving the longest (HIGH SCORE). You survive by avoiding contact with any bouncing white invaders. <p>Playing in SNIPER mode increases difficulty but comes with the ability to shoot and defeat the bubbles.</p><img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/442/611/datas/gallery.jpg"></p>
-			<p>It was an enlightening experience creating the app - a relatively ambitious project for my first experience with the web and JavaScript.<iframe width="560" height="315" src="https://www.youtube.com/embed/D5F0ICxwdEE" frameborder="0" allowfullscreen></iframe></p>
-			<p>See the above video demo.</p>
+			<h1 id="section_header">PROJECTS</h1>
+			<h3>Animated CSS3 Web Greeting Cards</h3>
+			<p><li>Created frameworks in which users could easily make adjustments to CSS in order to create an animated birthday/holiday card that could be sent via URL.</li>
+			<h3>Restaurant Menu Tracker</h3>
+				<p><li>Using Python, created an application that notifies users when their chosen keywords appear on a chosen online restaurant menu (or any URL)</li>
+				<li>Web scraping, notification system, IO data</li></p>
+			<h3>Database Management System</h3>
+			<li>Using Java, I designed and implemented a Database Management System and its DSL</li><li>Accomplished project as a result of integral design choices, rather than simply knowing code</li>
+			<h3>Cosmos Web Application</h3>
+			<li>Worked on a team to build an interactive web app from scratch using JavaSCript.</li><li>User navigates a rendered cosmos, can avoid and/or attack invaders for high score</li><li>Led the project from idea to design to execution</li><br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/D5F0ICxwdEE" formtarget="_blank" frameborder="0" allowfullscreen></iframe></p>
 		</section>
 		<section id="button_section">
-			<form action="https://cdn.rawgit.com/spockqin/Cosmos_Web_Game/master/cosmos4.html"><button>Play!</button></form>
+			<form type="button" onclick="window.open('https://cdn.rawgit.com/spockqin/Cosmos_Web_Game/master/cosmos4.html')"><button>Deploy Cosmos Web App</button></form>
 			<!--<form><button>Github</button></form>-->
 		</section>
 	</div>
 	<div class="section_group" id="link2">
 		<section>
-			<h3>Ahh Cats I like them</h3>
-			<p>The domestic cat (Latin: Felis catus) is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines.[6] Cats are often valued by humans for companionship and for their ability to hunt vermin. There are more than 70 cat breeds; different associations proclaim different num<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/1920px-Cat_poster_1.jpg"></p>
-			<p>A preview of the app is on the right.</p>
-			<p>Cats are cute</p>
-		</section>
-		<section id="button_section">
-			<button onclick="openLink(this)">View Project!</button>
-			<button>Github</button>
+			<h1 id="section_header">EXPERIENCE</h1>
+			<h3>Academic Interning</h3>
+			<p><li>Teaching assistant during my weekly lab section</li>
+				<li>Tutor students during office hours</li>
+				<li>Develop course curriculum for students</p></li>
+			<h3>CS61A Tutor</h3>
+			<p><li>Each week, I tutored 3 new students one-on-one for 61A</li>
+				<li>Created practice curriculum still used by new course staff</li>
 		</section>
 	</div>
 	<div class="section_group" id="link3">
 		<section>
-			<h3>Ohh la la</h3>
-			<p>To be, or not to be, that is the question: Whether 'tis Nobler in the mind to suffer. The Slings and Arrows of outrageous Fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.The Slings and Arrows of outrageous Fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.The Slings and Arrows of outrageous Fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.</p>
+			<h1 id="section_header">SKILLS</h1>
+			<h3>Languages</h3>
+			<li>Python</li>
+			<li>Java</li>
+			<li>JavaSCript</li>
+			<li>HTML/CSS</li>
+			<li> SQL</li>
+			<li>JavaScript frameworks</li>
+			<h3>Application Skills</h3>
+			<li>Latex</li>
+			<li>Python libaries such as pandas, plotly, matplotlip, numpy, seaborn, etc.</li>
 		</section>
-		<section id="button_section">
-			<button onclick="openLink(this)">View Project!</button>
-			<button>Github</button>
-		</section>
+		
 	</div>
 	<div class="section_group" id="link4">
 		<section>
-			<h3>Christmas Trees!</h3>
-			<p style="font-size: 20px">A Christmas tree is a decorated tree, usually an evergreen conifer such as spruce, pine, or fir...</p>
-			<p>A preview of the app is on the right.</p>
-			<p>To be, or not to be, that is the question: Whether tis Nobler in the mind to suffer. The Slings and Arrows of outrageous Fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/D%C3%A9coration_du_sapin_de_No%C3%ABl.jpg/440px-D%C3%A9coration_du_sapin_de_No%C3%ABl.jpg"></p>
-			<p>A preview of the app is on the right.</p>
-		</section>
-		<section id="button_section">
-			<button onclick="openLink(this)">View Project!</button>
-			<button>Github</button>
+			<h3>Technical Education</h3>
+			<img src="./files/schedule.png" style="widtH:100%"></p>
 		</section>
 	</div>
 	<div class="section_group" id="link5">
@@ -155,17 +176,95 @@
 </div>
 
 
+<div id="travel_container">
+<h1>Travels</h1>
+<h4 style="font-weight:300">See more: <a href="./travel.html">my travel page.</a></h4><br>
+<div class="gallery">
+    <img src="./files/wall.jpg" >
+  <div class="desc">Great Wall</div>
+</div>
+
+<div class="gallery">
+    <img src="./files/juizhaigou.jpg">
+  <div class="desc">Juizhaigou: gorgeous nature reserve in the Sichuan province.</div>
+</div>
+
+<div class="gallery">
+    <img src="./files/windmill.jpg">
+  <div class="desc">We're officially in the netherlands!</div>
+</div>
+<div class="gallery">
+    <img src="./files/dali.jpg" >
+  <div class="desc">Dali, China</div>
+</div>
+<div class="gallery">
+    <img src="./files/leuven.jpg">
+  <div class="desc">Leuven, Belgium. Fun fact: Stella Artois is brewed here.</div>
+</div>
+
+<div class="gallery">
+    <img src="./files/belgium.jpg">
+  <div class="desc">Me in Ghent, Belgium. The yellow flag in the background is the Flemish flag, representing the northern half of Belgium (where my family is from).</div>
+</div>
+
+</div>
+
+<br><br>
+<div id="contact_container">
+
+<h1 style="margin-top: 300px">Contact Me</h1>
+<p>You can find me at the links below. Feel free to reach out for any reason, I'm always up for a chat.</p>
+<div id="outer">
+	<div id="contact_col"><center><img style="width: 120px" src="./files/carlo_icon.jpg"/></center></div>
+	<div ud="contact_col">
+		<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkeley.edu" target="new" id="resume_email">CARLO@BERKELEY.EDU</a>
+		<a href="http://linkedin.com/in/carlocruz-albrecht" target="new" id="resume">LinkedIn</a>
+		<a href="http://github.com/carlocrza" target="new" id="resume">GitHub</a>
+		<a href="./files/resume.pdf" target="new" id="resume">Resume</a>
+	</div>
+</div>
+
+</div>
+
+
 <!--PENGUIN!!!-->
-<img onclick="animateElement('penguin')" id="penguin" src="https://cdn.rawgit.com/carlocrza/website/master/penguin.png"><!--<img src="http://i.pixelspeechbubble.com/4FbVWB8t/pixel-speech-bubble.png" id="penguin_text">-->
+<img onclick="animateElement('penguin')" id="penguin" src="./files/penguin.png"><!--<img src="http://i.pixelspeechbubble.com/4FbVWB8t/pixel-speech-bubble.png" id="penguin_text">-->
 
 <footer>
 	<nav>
-		<a><span style="font-size: 14px">✌︎</span>︎ Built by Carlo</a>
+		<a><span style="font-size: 14px">✌︎</span>︎ Built by Carlo &nbsp;<span style="font-size:14px">|</span> &nbsp;<a href="http://github.com/carlocrza" target="_blank">Github</a></a>
 	</nav>
 </footer>
 
 
-<script src="https://cdn.rawgit.com/carlocrza/website/master/script1.js"></script>
+<script src="./script1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
 
 </body>

@@ -1,7 +1,7 @@
 
 //-------------------------------------------------------
 var hello_text = document.getElementById("hello_text");
-var text_timer = setInterval(animateText, 120);
+//var text_timer = setInterval(animateText, 120);
 var text_id = 1;
 function animateText() {
 	var letter = document.getElementById("hello" + text_id);
@@ -11,7 +11,7 @@ function animateText() {
 		clearInterval(text_timer);
 }
 
-var allTimer = setInterval(allTime, 100);
+//var allTimer = setInterval(allTime, 100);
 var allTimeCount = 0;
 function allTime() {
 	if ((allTimeCount > 40 && allTimeCount < 50) || (allTimeCount > 80 && allTimeCount < 92)){
@@ -25,6 +25,7 @@ function allTime() {
 //-------------------------------------------------------
 function toggleVisibility(id) {
 	var e = document.getElementById(id);
+	console.log("hello")
 
 	if (e.style.display == 'block')
 		e.style.display = 'none';
@@ -40,7 +41,13 @@ function toggleContact() {
 }//-------------------------------------------------------
 
 
+var penguined = 0
+
 function animateElement(id){
+	penguined += 1
+	if (penguined > 1) {
+		return;
+	}
 	var elem = document.getElementById(id);
 	var timer = setInterval(move, 1);
 
