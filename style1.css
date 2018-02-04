@@ -226,6 +226,7 @@ button:hover {
 	margin-bottom: 50px;
 	width: 90%;
 	max-width: 800px;
+	min-height: 300px
 }
 
 #travel_container {
