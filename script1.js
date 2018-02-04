@@ -42,11 +42,13 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-/*
+
 if (isMobile.any()) {
-	var penguin = document.getElementById('penguin');
-	penguin.style.display = 'none';
-}*/
+	var header = document.getElementByTagName('h2');
+	header.style.fontSize = 'xx-large';
+	/*var header = document.getElementById('penguin');
+	penguin.style.display = 'none';*/
+}
 
 
 //-------------------------------------------------------
