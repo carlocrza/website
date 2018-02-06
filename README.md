@@ -1,5 +1,5 @@
 # My personal website
 
 <table border="0">
-<tr><td>At <a href="http://carlocrza.github.io/website">carlocrza.github.io/website</a> you can find a taste of who I am and what I do. I created the website from scratch using HTML, CSS, JavaScript. Check out the source code here.</td><td><img src="./files/read_me3.png"><span style="font-size: 8px">Biking 24 km to Gouda, Netherlands.</span></td></tr>
+<tr><td>At <a href="http://carlocrza.github.io/website">carlocrza.github.io/website</a> you can find a taste of who I am and what I do. I created the website from scratch using HTML, CSS, JavaScript. Check out the source code here.</td><td><img src="./files/carlo.jpg">(Shanghai.)</span></td></tr>
 </table>
