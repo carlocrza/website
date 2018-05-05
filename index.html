@@ -15,6 +15,34 @@
 	<meta property="og:description"        content="Random endeavors into html, css, and javascript ;)" />
 	<meta property="og:image"              content="" />
 	<!---->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.fa {
+	  padding: 10px;
+	  font-size: 20px;
+	  width: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
+
+	/*.fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	}*/
+
+	.fa-linkedin {
+	  background: #007bb5;
+	  color: white;
+	}
+
+	.fa-github {
+	  background: #bb0000;
+	  color: white;
+	}
+	</style>
+
 </head>
 
 <body>
@@ -62,7 +90,7 @@
 
 <p>See what I've been up to through the links below. Or click the penguin.
 
-<center><a href="./carloc.me/resume.html" target="new" id="resume"><!--href="./carlocrza.github.io/files/resume.pdf"-->RESUME</a></center>
+<center><a href="./resume.html" target="new" id="resume"><!--href="./carlocrza.github.io/files/resume.pdf"-->RESUME</a></center>
 <br>
 </div>
 
@@ -93,7 +121,8 @@
 	<div class="section_group" id="link1">
 		<section>
 			<h1 id="section_header">PROJECTS</h1>
-			<h3>Animated Web Greeting Cards</h3>
+			<h3> In progress... </h3>
+			<!-- <h3>Animated Web Greeting Cards</h3>
 			<p><li>Made frameworks using CSS3 in which users could easily create an animated birthday / holiday greeting cards that can be shared by a rawgit web address.</li>
 			<h3>Web Tracker</h3>
 				<p><li>Using Python, created an application that notifies users when their chosen keywords appear on chosen online sites.</li>
@@ -107,18 +136,20 @@
 		</section>
 		<section id="button_section">
 			<form type="button" onclick="window.open('https://cdn.rawgit.com/spockqin/Cosmos_Web_Game/master/cosmos4.html')"><button>Deploy Cosmos Web App</button></form>
-		</section>
+		</section>-->
 	</div>
 	<div class="section_group" id="link2">
 		<section>
 			<h1 id="section_header">EXPERIENCE</h1>
-			<h3>Academic Interning</h3>
-			<p><li>Teaching assistant during my weekly lab section</li>
-				<li>Tutor students during office hours</li>
-				<li>Develop course curriculum for students</p></li>
-			<h3>CS61A Tutor</h3>
+			<h3>Teaching: CS 61B, CS61A, DATA 8</h3>
+			<p><li>Teaching assistant during a weekly lab section of 30 students.</li>
+				<li>Tutor students during office hours.</li>
+				<li>Help develop course curriculum for students.</li>
+				<li>Review student work and provide feedback (Data 8).</li>
+				<li>Three tutoring sessions per week. Created custom worksheet materials. (CS61A).</li></p></li>
+			<!--<h3>CS61A Tutor</h3>
 			<p><li>Each week, I tutored 3 new students one-on-one for 61A</li>
-				<li>Created practice curriculum still used by new course staff</li>
+				<li>Created practice curriculum still used by new course staff</li>-->
 		</section>
 		<br>
 	</div>
@@ -128,13 +159,14 @@
 			<h3>Languages</h3>
 			<li>Python</li>
 			<li>Java</li>
-			<li>JavaSCript</li>
+			<li>JavaScript</li>
 			<li>HTML/CSS</li>
-			<li> SQL</li>
-			<li>JavaScript frameworks</li>
+			<li>SQL</li>
+			<li>Scheme</li>
 			<h3>Application Skills</h3>
 			<li>Latex</li>
-			<li>Python libaries such as pandas, plotly, matplotlip, numpy, seaborn, etc.</li>
+			<li>ReactJS</li>
+			<li>Python libaries: pandas, numpy, seaborn, matplotlip, scikit-learn.</li>
 		</section>
 		<br>
 		
@@ -160,6 +192,11 @@
 			<li>CS 170: Efficient Algorithms
 			and Intractable Problems</li>
 			<li>CS 188: Artificial Intelligence</li>
+			<h4>Fall 2019</h4>
+			<li>PROB 140: Probability for Data Science</li>
+			<li>CS 61C: Computer Architecture</li>
+			<li>MATH 110: Linear Algebra</li>
+			<li>MATH 53: Multivariable Calculus</li>
 		</section>
 		<br>
 	</div>
@@ -188,12 +225,12 @@
 </div>
 <div class="gallery">
     <img src="./files/leuven.jpg">
-  <div class="desc">Leuven, Belgium. Fun fact: Stella Artois is brewed here.</div>
+  <div class="desc">Leuven, Belgium.</div>
 </div>
 
 <div class="gallery">
     <img src="./files/belgium.JPG">
-  <div class="desc">Ghent, Belgium. Flemish flag in background, symbol of the northern half of Belgium.</div>
+  <div class="desc">Ghent, Belgium. (<a href="https://sometimesphilosophical.wordpress.com/2017/07/25/bruxelles/">Flemish</a> flag in background)</div>
 </div>
 
 </div>
@@ -206,9 +243,9 @@
 <div id="outer">
 	<div id="contact_col"><center><img style="width: 120px" src="./files/carlo_icon.jpg"/></center></div>
 	<div ud="contact_col">
-		<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkeley.edu" target="new" id="resume_email">CARLO@BERKELEY.EDU</a>
-		<a href="http://linkedin.com/in/carlocruz-albrecht" target="new" id="resume">LinkedIn</a>
-		<a href="http://github.com/carlocrza" target="new" id="resume">GitHub</a>
+		<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkeley.edu" target="new" id="resume_email">CARLO@berkeley.edu</a>
+		<a href="http://linkedin.com/in/carlocruz-albrecht" target="new" id="resume" class="fa-linkedin"></a>
+		<a href="http://github.com/carlocrza" target="new" id="resume" class="fa-github">GitHub</a>
 		<a href="./carlocrza.github.io/files/resume.pdf" target="new" id="resume">Resume</a>
 	</div>
 </div>
