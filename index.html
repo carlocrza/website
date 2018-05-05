@@ -1,298 +1,99 @@
 <html>
-
 <head>
-	<title>Carlo Cruz-Albrecht</title>
+<style>
 
-	<link rel="shortcut icon" href="./files/penguin.png"> 
+h1 {
+	font-size: 60px;
+    background: black;
+    color: white;
+    border-radius: .6em;
+    padding: .4em;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
-	<link rel="stylesheet" href="./style1.css">
-	<link rel="stylesheet" href="./style2.css">
+h2 {
+	font-size: 30px;
+    background: black;
+    color: white;
+    border-radius: .6em;
+    padding: .4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
-	<!-- for facebook / preview -->
-	<meta property="og:url"                content="" />
-	<meta property="og:type"               content="article" />
-	<meta property="og:title"              content="Webcoding Experiments" />
-	<meta property="og:description"        content="Random endeavors into html, css, and javascript ;)" />
-	<meta property="og:image"              content="" />
-	<!---->
+a {
+	position: absolute;
+    top:62%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-	.fa {
-	  padding: 10px;
-	  font-size: 20px;
-	  width: 20px;
-	  text-align: center;
-	  text-decoration: none;
-	  margin: 5px 2px;
+
+
+body {
+	/*width: 100wh;
+	height: 90vh;*/
+	color: #fff;
+	background: linear-gradient(-45deg, teal, #EE7752, #E73C7E, #23A6D5, #23D5AB, orange);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
 	}
-
-	/*.fa-facebook {
-	  background: #3B5998;
-	  color: white;
-	}*/
-
-	.fa-linkedin {
-	  background: #007bb5;
-	  color: white;
+	50% {
+		background-position: 100% 50%
 	}
-
-	.fa-github {
-	  background: #bb0000;
-	  color: white;
+	100% {
+		background-position: 0% 50%
 	}
-	</style>
+}
 
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+</style>
 </head>
-
 <body>
 
-<header>
-	<nav>
-		<a href="http://sometimesphilosophical.wordpress.com" target="new">BLOG</a>
-		<a href="#links_container">PROJECTS</a> 
-		<a href="#travel_container">TRAVEL</a>
-		<a href="#contact_container">CONTACT</a>
-		<!--<a href="javascript:toggleContact()"><span id="contact">CONTACT</span><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkely.edu" target="_blank"><img id="email" src="https://cdn.rawgit.com/carlocrza/website/master/email.png"/></a></a>-->
-		<a href="http://github.com/carlocrza" target="_blank">GITHUB</a>
-	</nav>
-</header>
+<h1>Have a good day.</h1>
 
-<!-- cute image of pixelated tiger gif http://66.media.tumblr.com/938056adc2bdd92f80712491149bff78/tumblr_mmtgftGhvg1rzn9vfo1_r1_500.gif-->
-
-
-<!-- visibility: hidden will hide the element but still takes space
-	 display: none renders page as if element does not exist 
-	 display
-#main {
-  width: 600px;
-  or
-  max-width: 600px;
-  margin: left right top bottom; //auto 
-  * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-} // for having a width that accounts for padding and margin
-}
-	 -->
-
-<!-- learn css layout http://learnlayout.com/margin-auto.html-->
-<div id="top_container">
-
-<h1 id="title1">Hi there,</h1>
-
-<center><h1 id="title2">I'm Carlo Cruz-Albrecht</h1></center>
-
-<!--<h1 id="hello_text"><span id="hello1">H</span><span id="hello2">e</span><span id="hello3">l</span><span id="hello4">l</span><span id="hello5">o</span><span id="hello6">&nbsp</span><span id="hello7">t</span><span id="hello8">h</span><span id="hello9">e</span><span id="hello10">r</span><span id="hello11">e</span><span id="hello12">.</span><span id="hello13">.</span><span id="hello14">.</span></h1>-->
-
-<p>I'm a sophomore at UC Berkeley, studying Computer Science.</p>
-
-<p>See what I've been up to through the links below. Or click the penguin.
-
-<center><a href="./resume.html" target="new" id="resume"><!--href="./carlocrza.github.io/files/resume.pdf"-->RESUME</a></center>
-<br>
-</div>
-
-<div id="main_container">
-
-	<!--<div id="about_div"><center><button onclick="toggleVisibility('about_me')">About Me</button></center></div>
-	
-		<div class="column">&nbsp;</div>
-
-		<div class="column">&nbsp;</div>
-		<div id="my_text" class="column">designer<br><br>software engineer<br><br>aspiring world traveler<br></div>-->
-
-		<div class="column">software engineer<br><br>designer<br><br>python enthusiast<br><br>aspiring world traveler<br></div>
-	
-
-</div>
-
-<div id="links_container">
-	<nav>
-		<a onclick="openLink(this,1)" id="first_link">PROJECTS</a>
-		<a onclick="openLink(this,2)" style="font-size: 20px">EXPERIENCE</a>
-		<a onclick="openLink(this,3)">SKILLS</a>
-		<a onclick="openLink(this,4)">TECHNICAL EDUCATION</a>
-		<!--<a onclick="openLink(this,5)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,6)" style="font-size:12px">In construction...</a>
-		<a onclick="openLink(this,7)" style="font-size:12px">In construction...</a>-->
-	</nav>
-	<div class="section_group" id="link1">
-		<section>
-			<h1 id="section_header">PROJECTS</h1>
-			<h3> In progress... </h3>
-			<!-- <h3>Animated Web Greeting Cards</h3>
-			<p><li>Made frameworks using CSS3 in which users could easily create an animated birthday / holiday greeting cards that can be shared by a rawgit web address.</li>
-			<h3>Web Tracker</h3>
-				<p><li>Using Python, created an application that notifies users when their chosen keywords appear on chosen online sites.</li>
-				<li>Designed to function as an online menu tracker to notify users when menu items are available for that day (meant for places such as Cheeseboard or caldining).</li>
-				<li>Web scraping, notification system, IO data</li></p>
-			<h3>Database Management System</h3>
-			<li>Using Java, I designed and implemented a Database Management System and its DSL</li><li>Accomplished project as a result of integral design choices, rather than simply knowing code</li>
-			<h3>Cosmos Web Application</h3>
-			<li>Worked on a team to build an interactive web app from scratch using JavaSCript.</li><li>User navigates a rendered cosmos, can avoid and/or attack invaders for high score</li><li>Led the project from idea to design to execution</li><br>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/D5F0ICxwdEE" formtarget="_blank" frameborder="0" allowfullscreen></iframe></p>
-		</section>
-		<section id="button_section">
-			<form type="button" onclick="window.open('https://cdn.rawgit.com/spockqin/Cosmos_Web_Game/master/cosmos4.html')"><button>Deploy Cosmos Web App</button></form>
-		</section>-->
-	</div>
-	<div class="section_group" id="link2">
-		<section>
-			<h1 id="section_header">EXPERIENCE</h1>
-			<h3>In Progress ;)</h3>
-			<!--<h3>Teaching: CS 61B, CS61A, DATA 8</h3>
-			<p><li>Teaching assistant during a weekly lab section of 30 students.</li>
-				<li>Tutor students during office hours.</li>
-				<li>Help develop course curriculum for students.</li>
-				<li>Review student work and provide feedback (Data 8).</li>
-				<li>Three tutoring sessions per week. Created custom worksheet materials. (CS61A).</li></p></li>
-			<h3>CS61A Tutor</h3>
-			<p><li>Each week, I tutored 3 new students one-on-one for 61A</li>
-				<li>Created practice curriculum still used by new course staff</li>-->
-		</section>
-		<br>
-	</div>
-	<div class="section_group" id="link3">
-		<section>
-			<h1 id="section_header">SKILLS</h1>
-			<h3>Languages</h3>
-			<li>Python</li>
-			<li>Java</li>
-			<li>JavaScript</li>
-			<li>HTML/CSS</li>
-			<li>SQL</li>
-			<li>Scheme</li>
-			<h3>Application Skills</h3>
-			<li>Latex</li>
-			<li>ReactJS</li>
-			<li>Python libaries: pandas, numpy, seaborn, matplotlib, scikit-learn.</li>
-		</section>
-		<br>
-		
-	</div>
-	<div class="section_group" id="link4">
-		<section>
-			<h3>Technical Education</h3>
-			<h4>Fall 2016</h4>
-			<li>CS 61A: The Structure and Interpretation
-			of Computer Programs</li>
-			<li>MATH 54: Linear Algebra</li>
-			<h4>Spring 2017</h4>
-			<li>CS 61B: Data
-			Structures</li>
-			<li>DATA 8: Data
-			Science</li>
-			<h4>Fall 2017</h4>
-			<li>CS 70: Discrete Math and
-			Probability</li>
-			<li>EE16A: Hardware Design</li>
-			<h4>Spring 2018</h4>
-			<li>DATA 100: Advanced Data Science Techniques</li>
-			<li>CS 170: Efficient Algorithms
-			and Intractable Problems</li>
-			<li>CS 188: Artificial Intelligence</li>
-			<h4>Fall 2019</h4>
-			<li>PROB 140: Probability for Data Science</li>
-			<li>CS 61C: Computer Architecture</li>
-			<li>MATH 110: Linear Algebra</li>
-			<li>MATH 53: Multivariable Calculus</li>
-		</section>
-		<br>
-	</div>
-</div>
-
-<div id="travel_container">
-<h1>Travels</h1>
-<h4 style="font-weight:300">Sometimes I like to travel. El próximo en mi lista: Latin America</h4><p style="font-weight:300"> Have you always wanted to learn about the intricacies of Dutch architecture? Or how we managed to navigate China when no one speaks your language? Check out my blog <a href="http://sometimesphilosophical.wordpress.com">sometimesphilosophical.wordpress.com</a></p><br>
-<div class="gallery">
-    <img src="./files/xian.JPG" >
-  <div class="desc">Xian, China</div>
-</div>
-
-<div class="gallery">
-    <img src="./files/juizhaigou.jpg">
-  <div class="desc">Juizhaigou: gorgeous nature reserve in the Sichuan province.</div>
-</div>
-
-<div class="gallery">
-    <img src="./files/windmill.jpg">
-  <div class="desc">We're officially in the netherlands!</div>
-</div>
-<div class="gallery">
-    <img src="./files/dali.jpg" >
-  <div class="desc">Dali, China</div>
-</div>
-<div class="gallery">
-    <img src="./files/leuven.jpg">
-  <div class="desc">Leuven, Belgium.</div>
-</div>
-
-<div class="gallery">
-    <img src="./files/belgium.JPG">
-  <div class="desc">Ghent, Belgium. (<a href="https://sometimesphilosophical.wordpress.com/2017/07/25/bruxelles/">Flemish</a> flag in background)</div>
-</div>
-
-</div>
-
-<br><br>
-<div id="contact_container">
-
-<h1 style="clear: both; padding-top: 50px">Contact Me</h1>
-<p>You can find me at the links below. Feel free to reach out for any reason, I'm always up for a chat.</p>
-<div id="outer">
-	<div id="contact_col"><center><img style="width: 120px" src="./files/carlo_icon.jpg"/></center></div>
-	<div ud="contact_col">
-		<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=carlo@berkeley.edu" target="new" id="resume_email">CARLO@berkeley.edu</a>
-		<a href="http://linkedin.com/in/carlocruz-albrecht" target="new" id="resume">LinkedIn</a>
-		<a href="http://github.com/carlocrza" target="new" id="resume">GitHub</a>
-		<a href="./carloc.me/resume.html" target="new" id="resume">Resume</a>
-	</div>
-</div>
-
-</div>
-
-
-<!--PENGUIN!!!-->
-<img onclick="animateElement('penguin')" id="penguin" src="./files/penguin.png"><img src="http://i.pixelspeechbubble.com/4FbVWB8t/pixel-speech-bubble.png" id="penguin_text">
-
-<footer>
-	<nav>
-		<a><span style="font-size: 14px">✌︎</span>︎ Built by Carlo &nbsp;<span style="font-size:14px">|</span> &nbsp;<a href="http://github.com/carlocrza" target="_blank">Github</a></a>
-	</nav>
-</footer>
-
-
-<script src="./script1.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
+<h2>-- Carlo Cruz-Albrecht</h2>
+<a href="./website.html">If you want to, see my actual website I'm making</a>
 
 </body>
+
 </html>
