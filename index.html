@@ -3,32 +3,32 @@
 <style>
 
 h1 {
-	font-size: 65px;
+	font-size: 30px;
     background: black;
     color: white;
     border-radius: .6em;
-    padding: .4em;
+    padding: .3em;
     position: absolute;
-    top: 28%;
+    top: 37%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 65px;
     background: black;
     color: white;
     border-radius: .6em;
-    padding: .4em;
+    padding: .3em;
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
-a {
+div {
 	position: absolute;
     top:62%;
     left: 50%;
@@ -37,11 +37,34 @@ a {
     text-decoration: none;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    /*background-color: white;*/
+    color: #606060;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
 
-body {
-	/*width: 100wh;
-	height: 90vh;*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 10;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+/*body {
+	width: 100wh;
+	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, teal, #EE7752, #E73C7E, #23A6D5, #23D5AB, orange);
 	background-size: 400% 400%;
@@ -84,17 +107,69 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
-}
+}*/
 
 </style>
+
 </head>
-<body>
+<body id="okeydokey">
 
-<h1>Have a great day.</h1>
+<h2>Have a great day.</h2>
 
-<h2>-- Carlo Cruz-Albrecht</h2>
-<a href="./website.html">Click here for my work-in-progress website.</a>
+<h1 id="sh1">-- Carlo Cruz-Albrecht</h1>
+<div>
+
+<br>
+
+
+<table border="1">
+<tr><td colspan="3" style="border: 1px solid transparent; color: white; text-align: center; background-color: transparent">Teaching Materials</td></tr>
+<tr style="background-color: lightblue">
+	<td>Intro CS (CS 61A)</td><td>Data Science (Data 100)</td><td>Data Structures (CS 61B)</td></tr>
+<tr style="background-color: white">
+	<td><a href="http://carloc.me/first_lesson.html">First Python Lesson</a></td><td><a href="http://carloc.me/python_libraries.html">Python Libraries</a></td><td><a href="http://carloc.me/disjoint.html">Disjoint Sets</a></td></tr>
+<tr style="background-color: white">
+	<td><a href="http://carloc.me/python_2.html">Names, Functions, Frames</a></td><td> </td><td> </td></tr>
+<tr style="background-color: white">
+	<td> </td><td> </td><td> </td></tr>
+
+</table>
+</div>
+
+
+<a class="footer" href="./website.html">Click here for my work-in-progress website.</a>
+
 
 </body>
+
+
+<script>
+
+function generate() {
+
+  var hexValues = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e"];
+  
+  function populate(a) {
+    for ( var i = 0; i < 6; i++ ) {
+      var x = Math.round( Math.random() * 14 );
+      var y = hexValues[x];
+      a += y;
+    }
+    return a;
+  }
+  
+  var newColor1 = populate('#');
+  var newColor2 = populate('#');
+  var angle = Math.round( Math.random() * 360 );
+  
+  var gradient = "linear-gradient(" + angle + "deg, " + newColor1 + ", " + newColor2 + ")";
+  
+  document.getElementById("okeydokey").style.background = gradient;
+  
+}
+
+document.onload = generate();
+
+</script>
 
 </html>
