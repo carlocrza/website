@@ -10,7 +10,7 @@ I'm passionate about CS education, exploring Artificial Intelligence (neural net
 
 Feel free to poke around to see what I've been up to.
 
+If you want to get in touch, drop me a line at **carlo** at **berkeley.edu**
+
+---
 **Students:** see [Teaching](/Teaching) for my teaching hours, appointment scheduling, lecture slides, and other resources.  
-
-
-If you want to reach out for any reason, feel free to contact me at **carlo** at **berkeley.edu**
