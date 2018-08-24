@@ -22,13 +22,13 @@
         {% endif %}
 
         <!--<p></p>-->
-        <ul id="navigation">
-        <li><a href="/">About</a></li>
-        <li><a href="/teaching">Teaching</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="/contact">Contact</a></li>
-        </ul>
+        <div id="navigation">
+        <a href="/">About</a><br>
+        <a href="/teaching">Teaching</a><br>
+        <a href="/blog">Blog</a><br>
+        <a href="/resume">Resume</a><br>
+        <a href="/contact">Contact</a>
+        </div>
         
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -47,7 +47,10 @@
       {{ content }}
 
       </section>
+
       <footer>
+      
+
         <a href="/contact" class="fa fa-envelope"></a>
         <a href="https://www.linkedin.com/in/carlocruz-albrecht/" class="fa fa-linkedin"></a>
        <a href="http://github.com/carlocrza/" class="fa fa-github"></a>
@@ -70,5 +73,7 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <script src="/js/jquery.min.js"></script>
+    {% include text-expand.html %}
   </body>
 </html>
