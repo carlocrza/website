@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+body {
+	font-family: 'Roboto';
+	margin: 0;
+	background-color: white;
+	/*background-image: url('https://lh3.googleusercontent.com/AKHIDpOjV9OqnFOof_YopyebsjIPfhXaW6aLIn2Esjz7nYqAivg8BhLCgHWcEjgJbX2qETPf_muwxGiHOjY9eAZHS4fN_-EcS60MC_U5sVPw2b_G2i02aGb59ShmKlBCecl8uhGvLd9G1mKntPXyv7RoWflRZVEYdZbOg9pNu2Q6A4vysd50c4QIsEtBAMCn_jgudGUuxt6HJLfqzSrJki0PjikOBGgf82DQHNt3M23Ye5e6ESIOPR8ygLiwkU3Ia8Fe-Nh0Ql1F0Nxce7fQxVMxHQrAuaYpxGlTWD6BJfbhQ0wrlbwQAcoMFjw70z5AuBo_EmZGw86x4UdPmkXlI9Wftp0EN-sTBQoVHVZDvjQJrhBdkcjieXDPLL94Upah45ARoKaPdYTmzfrTNNSsbwktOrWmKMg7XSuoBRkiW8VAk0Q3kpB2yHOL5KtSjo8td2U1zRDhKrA1_VXLgaM9AmfjzCBofEVHMHBgHsB6YjyvuY7vK9QjUhxNwAreRk6fO0GUzFdAQNoK1vr7X35VpjMd2nFykWIY-Wi4dcgdpMuc8B2D6y8LcUiR0K5Uut2dx8BSiydkXWIHri06CguMAZr3CqLg-Kuf2zt4uf41=w1900-h1266-no');
+	background-position: 0px -300px;*/
+}
+
+header {
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 1;
+	text-align: right;
+	letter-spacing: 1.6px;
+
+	padding: 15px 5px 15px 5px;
+	background-color: #f8f8f8;
+	border-bottom: 1px lightgray dotted; /* dotted,dashed,solid,double,groove,ridge,inset,outset,none, [mixed] _ _ _ _ */
+}
+
+footer {
+	margin: auto;
+	margin-bottom: 8px;
+	font-size: 10;
+	font-weight: 100;
+	line-height: .5;
+	text-align: center;
+	letter-spacing: 1.6px;
+
+	padding: 100px 5px 15px 5px;
+	/*background-color: #f8f8f8;*/
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+footer a:hover {
+	border: none;
+}
+
+header a {
+	margin-right: 20px;
+}
+
+a {
+	color: #EF6C00;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dotted;
+}
+
+/*a:visited {
+	color: #BF360C;
+}*/
+
+#email {
+	display: none;
+	width: 100px;
+	height: auto;
+}
+/*http://www.w3schools.com/images/colorpicker.gif*/
+
+/* 
+
+1. animate hello there text
+2. page break
+3. about me button
+4. links to work
+4.5. footer saying copyright Carlo Cruz-Albrecht, don't enable it tho
+5. popup about me button
+6. click me penguin
+7. animation penguin
+8. enable about me, contact (open with img to email for now), and github links
+
+9. later make fancy preview for links
+*/
+
+#top_container {
+	letter-spacing: 1.6px;
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+	border-bottom: 1px solid #FF5722;
+}
+
+#hello {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: type 10s steps(100, end); 
+	animation-timing-function: ease-in;
+}
+
+
+#title1 {
+	margin: 30px 0 0 0;
+	width: 100%;
+	animation: type 8s steps(100, end); 
+	animation-timing-function: ease;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/*#title2 {
+	animation: type 10s steps(100, end);
+	animation-timing-function: ease-in; 
+}*/
+
+h1 {
+	letter-spacing: 1.7;
+	font-size: 60px;
+	font-weight: 100;
+	color: #E65100;
+	width: 100%;
+}
+
+@keyframes type {
+  from { width: 0; }
+}
+
+#top_container p {
+	color: #53463b;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#main_container {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80%;
+	max-width: 700px;
+	background-image: url('./files/background_carlo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-size: 25px;
+	font-weight: 300;
+	display: block;
+	border-radius: 5px;
+	/*background: linear-gradient(to bottom right, #db7455, #FFEDDD);*/
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 1.2px;
+	color: #4C3B36;
+	height: 344px;
+}
+
+.column {
+	color: white;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+#my_text {
+	line-height: 30px; 
+	text-align: center; 
+	margin-top: 5%;
+}
+
+
+#about_div {
+	width: 20%;
+	max-width: 200px;
+	margin: 20px auto;
+}
+
+#contact_container {
+	clear: both;
+	margin: auto;
+	height: 430px;
+	width: 90%;
+	max-width: 800px;
+}
+
+#outer {
+box-sizing: border-box;
+}
+
+#contact_col {
+	float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/*#main_container button {
+	width: 100%;
+}*/
+
+button {
+	font-size: 15px;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border-radius: 2px;
+	background-color: #FF7043;
+	border: 0;
+	box-shadow: 2px 2px 0px #FFAC92;
+	/*box-shadow: v, h, blur, spread, color, inset*/
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+	box-shadow: 1px 1px 0px #FFAC92;
+}
+
+button:hover {
+	background-color: #F46639;
+
+}
+
+#links_container {
+	position: relative;
+	margin: auto;
+	margin-bottom: 50px;
+	width: 90%;
+	max-width: 800px;
+	min-height: 300px
+}
+
+#travel_container {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 250px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#map_container {
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+}
+
+#links_container a {
+	padding: 10px 10px 10px 10px;
+	display: block;
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #E84D00;
+}
+
+#section_header {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#links_container a:hover {border:none;background:#E6E9FF!important;} /* FFEFD5*/
+
+/*#links_container a:visited {color:#E84D00;} /* NOT BACKGROUND COLOR!*/
+
+#links_container nav {
+	position: absolute;
+	width: 170px;
+	height: 100%;
+}
+
+#links_container nav a{
+	font-weight: 300;
+	font-size: 20px;
+	background-color: #fffbf5;
+}
+
+.section_group {
+	background-color: #E6E9FF;
+	margin-left: 170px;
+}
+
+section {
+	background-color: #E6E9FF;
+	margin: auto;
+	width: 90%;
+	padding-top: 5px;
+	overflow: auto;
+}
+
+#button_section {
+	text-align: center;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+section button {
+	margin: 10px 10px 10px 10px;
+}
+
+
+form {
+	margin: 0;
+	padding: 0;
+}
+section p {
+	font-weight: 400;
+	color: #3B3330;
+}
+
+#links_container img {
+	float: right;
+	max-height: 200px;
+	max-width: auto;
+	margin: 10px 10px 10px 10px;
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7 {
+	display: none;
+}
+
+
+#penguin {
+	position: fixed;
+	top: 100px;
+	right: 100px;
+	width: 25px;
+	height: auto;
+}
+
+#penguin_text {
+	position: fixed;
+	top: 70px;
+	right: 60px;
+	width: 50px;
+	height: auto;
+	display: none;
+}
+
+#belgium_img {
+	width: 220px;
+	border-radius: 5px;
+}
+
+
+/*#penguin {
+	float: right;
+	padding: 40px 90px 50px 30px;
+	width: 25px;
+	height: auto;
+}*/
