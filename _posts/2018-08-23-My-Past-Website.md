@@ -14,4 +14,4 @@ It's taken me some time to learn that the hard-work, brute force approach isn't 
 
 I'll miss it but I'm also glad to say good riddance.
 
-[carloc.me/website.html](http://carloc.me/website.html)
+[carloc.me/website](/website)
