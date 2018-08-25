@@ -33,4 +33,4 @@ Also available by <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlo@b
 
 2. [Python Libraries for Data Science Series](/cs61a)
 
-3. Selected Saff Webpages: [Kevin Lin](http://kevinl.info)
+3. Selected Staff Webpages: [Kevin Lin](http://kevinl.info)
