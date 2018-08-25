@@ -1,5 +1,4 @@
-echo '
----
+echo '---
 layout: default
 title: One moment...
 ---
