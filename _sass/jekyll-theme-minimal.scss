@@ -312,3 +312,21 @@ footer {
   font-weight: 900;
   font-family: 'Roboto Mono', monospace;
 }
+
+#tab:hover {
+  animation-name: slide;
+  animation-duration: .2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {margin-left: 0px;}
+  to {margin-left: 5px; }
+}
+
+#out {
+  background-color: white; /*#fcfcfc;*/
+  color: black; 
+  border: none;
+}

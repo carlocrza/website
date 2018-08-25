@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="font-family: Roboto Mono"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -23,12 +23,12 @@
 
         <!--<p></p>-->
         <div id="navigation">
-        <a href="/">About</a><br>
-        <a href="/teaching">Teaching</a><br>
-        <a href="/blog">Blog</a><br>
-        <a href="/resume">Resume</a><br>
-        <a href="/coursework">Coursework</a><br>
-        <a href="/contact">Contact</a>
+        <a id="tab" href="/">About</a><br>
+        <a id="tab" href="/teaching">Teaching</a><br>
+        <a id="tab" href="/blog">Blog</a><br>
+        <a id="tab" href="/resume">Resume</a><br>
+        <a id="tab" href="/coursework">Coursework</a><br>
+        <a id="tab" href="/contact">Contact</a>
         </div>
         
         {% if site.github.is_project_page %}
@@ -74,7 +74,5 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-    <script src="/js/jquery.min.js"></script>
-    {% include text-expand.html %}
   </body>
 </html>

@@ -20,11 +20,17 @@ Also available by <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlo@b
 
 ---
 
-## Resources 
-### (my notes, exercises, section slides)
-
+## Resources by Course
 [CS61B (Data Structures + Algorithms)](/cs61b)
 
 [CS61A (Structure and Interpretation of Computer Programs)](/cs61a)
 
 [Data 100 (Principles + Techniques of Data Science)](/ds100)
+
+---
+## Additional Resources 
+1. [Introductory Python Series](/ds100)
+
+2. [Python Libraries for Data Science Series](/cs61a)
+
+3. Selected Saff Webpages: [Kevin Lin](http://kevinl.info)

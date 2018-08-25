@@ -13,4 +13,4 @@ Feel free to poke around to see what I've been up to.
 If you want to get in touch, drop me a line at **carlo** at **berkeley.edu**
 
 ---
-**Students:** see [Teaching](/Teaching) for my teaching hours, appointment scheduling, lecture slides, and other resources.  
+**Students:** see [Teaching](/teaching) for my teaching hours, appointment scheduling, lecture slides, and other resources.  
