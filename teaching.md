@@ -29,8 +29,8 @@ Also available by <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlo@b
 
 ---
 ## Additional Resources 
-1. [Introductory Python Series](/ds100)
+1. [Introductory Python Series](/cs61a)
 
-2. [Python Libraries for Data Science Series](/cs61a)
+2. [Python Libraries for Data Science Series](/ds100)
 
 3. Selected Staff Webpages: [Kevin Lin](http://kevinl.info)
