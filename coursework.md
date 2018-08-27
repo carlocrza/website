@@ -4,7 +4,9 @@ title:  "Coursework"
 subtitle: ""
 tags: 
 ---
-Here are some key courses I've taken at Berkeley.
+> <img width="200" src="https://www.berkeley.edu/images/uploads/logo-ucberkeley.png">   
+> Here are some key courses I've taken at Berkeley.
+
 * Data Structures
 * Algorithms  
 * Computer Architecture  
