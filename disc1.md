@@ -29,6 +29,7 @@ int i = 5; // error: variable already defined
 > Can we 'delete' variables? How could we reduce the amount of memory an object takes when we no longer need it?
 
 ### Git Demo
+![](https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963)
 Come to discussion!
 
 To better understand git and the difference between `add`, `commit`, `push`, `pull`, `merge` then read this [61b using git guide](https://sp18.datastructur.es/materials/guides/using-git.html).
