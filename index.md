@@ -6,7 +6,7 @@ tags: jekyll update
 ---
 Greetings! I'm a Computer Science + Data Science double major at UC Berkeley and a TA for Berkeley's [Data Structures and Algorithms](http://inst.eecs.berkeley.edu/~cs61b/fa18/) course. 
 
-I'm passionate about CS education, exploring Artificial Intelligence (neural nets are so cool), and fascinated by how social patterns influence technological progress. 
+I'm passionate about CS education and fascinated by how social patterns influence technological progress. 
 
 Feel free to poke around to see what I've been up to.
 
