@@ -14,3 +14,5 @@ If you want to get in touch, drop me a line at **carlo** at **berkeley.edu**
 
 ---
 **Students:** see [Teaching](/teaching) for my teaching hours, lecture slides, and other resources.  
+
+[Discussion Attendance](/dis)
