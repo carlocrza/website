@@ -33,7 +33,7 @@ Discussion 2:
 Discussion 4: 
 1. [Inheritance Slides](https://docs.google.com/presentation/d/1WLzpfIOubMBT5kvHXAZiApkKD2HJnftKnMTrEfaMw14/edit#slide=id.p)
 2. Question 4 Code: [Inheritance.java](/Inheritance.java)
-3. Practice problem (static/dynamic type madness): [Sp18 MT1 Question 3](https://tbp.berkeley.edu/exams/5990/download/), [Sol](https://tbp.berkeley.edu/exams/5991/download/) 
+3. Practice Problem (static/dynamic type madness): [Sp18 MT1 Question 3](https://tbp.berkeley.edu/exams/5990/download/), [Sol](https://tbp.berkeley.edu/exams/5991/download/) 
 
 
 [Disjoint Sets Slides](http://carloc.me/disjoint)  
