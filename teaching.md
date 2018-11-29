@@ -28,13 +28,18 @@ Discussion 1:
 2. Plus, highly recommend this [git guide](https://sp18.datastructur.es/materials/guides/using-git.html)  
 
 Discussion 2:   
-1. [Pointers and Linked List Demo](http://goo.gl/p86KnB) 
+1. [Java Pointers and Linked List Demo](http://goo.gl/p86KnB) 
 
 Discussion 4: 
 1. [Inheritance Slides](https://docs.google.com/presentation/d/1WLzpfIOubMBT5kvHXAZiApkKD2HJnftKnMTrEfaMw14/edit#slide=id.p)
 2. Question 4 Code: [Inheritance.java](/Inheritance.java)
 3. Practice Problem (static/dynamic type madness): [Sp18 MT1 Question 3](https://tbp.berkeley.edu/exams/5990/download/), [Sol](https://tbp.berkeley.edu/exams/5991/download/) 
 
+Discussion 11:
+1. [Balanced Search Trees (Red Black Trees), Tries, Skip Lists - Slides/demo](https://docs.google.com/presentation/d/1vdcqju_lYHZsyyOsx9VibCF7gOf5vji8FbBvfvkICA8/edit?usp=sharing)
+
+Discussion 12 / 13: 
+1. [Dijkstra's, A\*, Prim's, Kruskal's Pseudocode](http://carloc.me/dijkstra)
 
 [Disjoint Sets Slides](http://carloc.me/disjoint)  
 
