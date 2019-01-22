@@ -8,18 +8,18 @@ tags:
 ## Fall 2018: CS61B
 
 <div style="line-height: 180%; padding: 10px; border-radius: 5px; background-color: #F1F1F1">
-<b>Lab:</b> Thursdays 5-7pm, Soda 273<br>
 
-<b>Discussion:</b> Tuesdays 5-6pm, Dwinelle 223<br>
+<b>Discussion:</b> Tuesdays 10-11am, Barrows 185<br>
 
-<b>Office Hours:</b> Wednesdays 10-11am, 109 Morgan<br>
+<b>Lab:</b> Thursdays 3-5pm, Soda 277<br>
 
-<small><a href="https://calendar.google.com/calendar/embed?mode=WEEK&height=600&wkst=1&bgcolor=%23FFFFFF&src=berkeley.edu_6g2e4cd6cj973iltn2gscj2dp4%40group.calendar.google.com&color=%23182C57&ctz=America%2FLos_Angeles">All office hours</a></small>
+<b>Office Hours:</b> TBD<br>
+
+<small><a href="https://sp19.datastructur.es/">All office hours</a></small>
 <!-- Also available by <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlo@berkeley.edu&su=One-on-One Meeting&body=Two notes: Check my OH, Lab, Disc schedule on carloc.me. After exams I will send out a calendar for conference sign ups. Otherwise, email me and we can schedule a time together!">appointment</a>. --> 
 
 </div>
 <br>
-Discussion Attendance: [carloc.me/dis](http://carloc.me/feedback.html)  
 Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)  
 
 ### Notes, section slides, etc.:
