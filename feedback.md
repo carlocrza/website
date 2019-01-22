@@ -9,7 +9,6 @@ title: One moment...
 <meta name="keywords" content="automatic redirection">
 </head>
 <body>
-If your browser does not automatically redirect in a few seconds, [click here]
-(https://goo.gl/forms/8pzphFVuUHD0KssU2).
+If your browser does not automatically redirect in a few seconds, <a href="https://goo.gl/forms/8pzphFVuUHD0KssU2">click here</a>.
 </body>
 </html>

@@ -9,6 +9,6 @@ title: One moment...
 <meta name="keywords" content="automatic redirection">
 </head>
 <body>
-If your browser does not automatically redirect in a few seconds, [click here](https://www.linkedin.com/in/carlocruz-albrecht/).
+If your browser does not automatically redirect in a few seconds, <a href="https://www.linkedin.com/in/carlocruz-albrecht/">click here</a>.
 </body>
 </html>
