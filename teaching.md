@@ -5,7 +5,7 @@ date:  2018-08-24
 tags: 
 ---
 ---
-## Fall 2018: CS61B
+## Spring 2019: CS61B
 
 <div style="line-height: 180%; padding: 10px; border-radius: 5px; background-color: #F1F1F1">
 
