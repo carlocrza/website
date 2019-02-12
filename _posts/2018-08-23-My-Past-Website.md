@@ -4,9 +4,9 @@ title:  "My Past Website"
 date: August 21, 2018
 tags: jekyll update
 ---
-Yay! I at last have a new website. Something that looks clean, loads quickly and works on mobile.
+Yay! I at last have a new website. Something that looks decently clean, loads quickly and works on mobile.
 
-I used Jekyll which is a static site generator. The content of all the pages are in markdown and they're processed into HTML and CSS based off of my layout and sass files. It's was a bit of a learning curve to understand and wrangle with the default template Jekyll creates for you. But the end result is clean, fast and easy to edit.
+I used Jekyll which is a static site generator. The content of all the pages are in markdown (with some html thrown in) and they're processed into HTML and CSS based off of my html layout and sass files. It's was a little bit of a learning curve to understand and wrangle with the default templates Jekyll creates for you. But the end result is clean, fast and easy to edit.
 
 My original website was written entirley from scratch using pure HTML, CSS, Javascript. No frameworks. While that was rewarding and enriching in itself, the architecture meant that adding any new features and organization slowed everything down. And a lot of patchwork CSS was needed to tape everything together!
 

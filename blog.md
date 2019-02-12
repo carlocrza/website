@@ -3,7 +3,9 @@ layout: default
 title:  "Blog Posts"
 tags: jekyll update
 ---
-Click the blog links to read more!
+hmmm I need to work on this...
+
+![pusheen the cat](https://media1.tenor.com/images/4a950a1e221d93e654047ecee711af5a/tenor.gif?itemid=8105026)
 
 <ul>
   {% for post in site.posts %}
