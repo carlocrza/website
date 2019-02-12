@@ -47,8 +47,8 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 		<td>
 			<a href="https://docs.google.com/presentation/d/1fHOE9-U193rtBDfpnY45NZis0DQBpiodnpLNldM7utY/edit?usp=sharing" target="blank">Slides</a><br>
 			<a href="/dis4.zip" target="blank">Code</a><br>
-			<a href="https://inst.eecs.berkeley.edu/~cs61bl/su15/materials/guides/static-dynamic.pdf" target="blank">Notes</a> on Static vs. Dynamic method selection
-			<a href="/casting">Casting clarification</a>
+			<a href="https://inst.eecs.berkeley.edu/~cs61bl/su15/materials/guides/static-dynamic.pdf" target="blank">Notes</a> on Static vs. Dynamic method selection<br>
+			<a href="/casting">Casting notes</a>: runtime vs compile time errors
 		</td>
 	</tr>
 
