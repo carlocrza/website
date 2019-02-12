@@ -7,59 +7,70 @@ tags:
 ---
 ## Spring 2019: CS61B
 
-<div style="line-height: 180%; padding: 10px; border-radius: 5px; background-color: #F1F1F1">
+<div style="line-height: 180%; padding: 5px 10px 0px 10px; border-radius: 5px; background-color: #F1F1F1">
 
-<b>Discussion:</b> Tuesdays 10-11am, Barrows 185<br>
+<table>
+	<tr><td><b>Discussion</b></td><td>Tuesdays 10-11am, Barrows 185 <br> Tuesdays 5-6pm, Evans 9</td></tr>
+	<tr><td><b>Office Hours</b></td><td>Tuesdays 11am, 310 Jacobs <br> <small><a href="https://sp19.datastructur.es/">All office hours</a></small>
+</td></tr>
+</table>
 
-<b>Lab:</b> Thursdays 3-5pm, Soda 277<br>
-
-<b>Office Hours:</b> TBD<br>
-
-<small><a href="https://sp19.datastructur.es/">All office hours</a></small>
 <!-- Also available by <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlo@berkeley.edu&su=One-on-One Meeting&body=Two notes: Check my OH, Lab, Disc schedule on carloc.me. After exams I will send out a calendar for conference sign ups. Otherwise, email me and we can schedule a time together!">appointment</a>. --> 
 
 </div>
-<br>
+
 Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)  
 
-### Notes, section slides, etc.:
-Discussion 1: 
-1. [Section notes](/disc1)    
-2. Plus, highly recommend this [git guide](https://sp18.datastructur.es/materials/guides/using-git.html)  
+### Section Materials:
 
-Discussion 2:   
-1. [Java Pointers and Linked List Demo](http://goo.gl/p86KnB) 
+<table style="background-color: #eff5ff">
+	<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc01.pdf" target="blank">Intro to Java</a>
+		</td>
+		<td><a href="/disc1">introductory notes, Java vs Python</a><br>
+			highly recommend <a href="https://sp18.datastructur.es/materials/guides/using-git.html" target="blank">this git guide</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc02.pdf" target="blank">Scope, Pass by Value, Static</a>
+		</td>
+		<td>
+			<a href="http://goo.gl/p86KnB" target="blank">Java Pointers and Linked List demo</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc04.pdf" target="blank">Inheritance</a>
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1fHOE9-U193rtBDfpnY45NZis0DQBpiodnpLNldM7utY/edit?usp=sharing" target="blank">Slides</a><br>
+			<a href="/dis4.zip" target="blank">Code</a><br>
+			<a href="https://inst.eecs.berkeley.edu/~cs61bl/su15/materials/guides/static-dynamic.pdf" target="blank">Notes</a> on Static vs. Dynamic method selection
+		</td>
+	</tr>
 
-Discussion 4: 
-1. [Inheritance Slides](https://docs.google.com/presentation/d/1WLzpfIOubMBT5kvHXAZiApkKD2HJnftKnMTrEfaMw14/edit#slide=id.p)
-2. Question 4 Code: [Inheritance.java](/Inheritance.java)
-3. Practice Problem (static/dynamic type madness): [Sp18 MT1 Question 3](https://tbp.berkeley.edu/exams/5990/download/), [Sol](https://tbp.berkeley.edu/exams/5991/download/) 
+</table>
 
-Discussion 11:
-1. [Balanced Search Trees (Red Black Trees), Tries, Skip Lists - Slides/demo](https://docs.google.com/presentation/d/1vdcqju_lYHZsyyOsx9VibCF7gOf5vji8FbBvfvkICA8/edit?usp=sharing)
-
-Discussion 12 / 13: 
-1. [Dijkstra's, A\*, Prim's, Kruskal's Pseudocode](http://carloc.me/dijkstra)
-
-[Disjoint Sets Slides](http://carloc.me/disjoint)  
-
-[Hash Tables Slides](http://carloc.me/hashing)  
+#### Archive
+* [Balanced Search Trees (Red Black Trees), Tries, Skip Lists - Slides/demo](https://docs.google.com/presentation/d/1vdcqju_lYHZsyyOsx9VibCF7gOf5vji8FbBvfvkICA8/edit?usp=sharing)
+* [Dijkstra's, A\*, Prim's, Kruskal's Pseudocode](http://carloc.me/dijkstra)
+* [Disjoint Sets Slides](http://carloc.me/disjoint)  
+* [Hash Tables Slides](http://carloc.me/hashing)  
 
 
+Other 61B Staff Materials:   
+[Kevin Lin](http://kevinl.info)   
+[Matt Sit](https://mattsit.github.io/cs61b)
 
 ---
 
 ## My Other Course Resources
-**[Data 100](/ds100)** (Principles + Techniques of Data Science)
-
+**[Data 100](/ds100)** (Principles + Techniques of Data Science)  
 **[CS61A](/cs61a)** (Structure and Interpretation of Computer Programs)
 
 ---
-## Additional 
-1. [Introductory Python Series](/cs61a)
-
-2. [Python Libraries for Data Science Series](/ds100)
-
-3. Selected Staff Webpages:   
-    [Kevin Lin](http://kevinl.info)   
-    [Matt Sit](https://mattsit.github.io/cs61b)
+## Miscellaneous 
+[Introductory Python Tutorials](/cs61a)  
+[Python Libraries for Data Science Tutorials](/ds100)
