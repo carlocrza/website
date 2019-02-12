@@ -2,6 +2,7 @@
 layout: default
 title:  "Casting: compiler and runtime errors"
 tags: java
+highlighter: rouge
 ---
 
 Both compiler errors *and* runtime errors can occur in regards to casting.
@@ -22,6 +23,24 @@ Dog d = new Dog();
                           // runtime error (ClassCastException)
 
 ((Dog) fishy).bark();  // compiler error (incompatible types)
+```
+
+{% highlight java %}
+public static void main(String[] args) {
+	
+}
+{% endhighlight %}
+
+```html
+<div>hello</div
+	<h1>hello</h1>
+<div>hello</div
+	<h1>hello</h1>
+<h1>hello<h1>
+<h1>hello<h1>
+<table>
+<tr>ok</tr>
+</table>
 ```
 
 

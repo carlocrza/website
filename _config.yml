@@ -25,8 +25,13 @@ logo: /assets/img/carlo1.JPG
 # Build settings
 theme: jekyll-theme-minimal
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 plugins:
   - jekyll-feed
+
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
