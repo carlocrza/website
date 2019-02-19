@@ -51,6 +51,15 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="/casting">Casting notes</a>: runtime vs compile time errors
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc05.pdf" target="blank">Iterators and Iterables</a>
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1cQ4t5LTpkrDurPBsS1Ew6kRPv3MP16eld-UcnJrVGJE/edit?usp=sharing" target="blank">Slides</a><br>
+			<a href="/dis5.zip" target="blank">Code</a><br>
+		</td>
+	</tr>
 
 </table>
 
