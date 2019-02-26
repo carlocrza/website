@@ -60,8 +60,18 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="/dis5.zip" target="blank">Code</a><br>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc06.pdf" target="blank">Disjoint Sets and Asymptotics</a>
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1s3PTm9IeieeRfW6cRgJquPvDHJ-2UC5DfhQXaxy6MMI/edit?usp=sharing" target="blank">Slides</a><br>
+			<a href="/dis6demo.java" target="blank">Question 2.4 Code</a><br>
+		</td>
+	</tr>
 
 </table>
+
 
 #### Archive
 * [Balanced Search Trees (Red Black Trees), Tries, Skip Lists - Slides/demo](https://docs.google.com/presentation/d/1vdcqju_lYHZsyyOsx9VibCF7gOf5vji8FbBvfvkICA8/edit?usp=sharing)
