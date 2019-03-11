@@ -69,9 +69,16 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="/dis6demo.java" target="blank">Question 2.4 Code</a><br>
 		</td>
 	</tr>
+		<tr>
+		<td>
+			<a href="https://sp19.datastructur.es/materials/discussion/disc08.pdf" target="blank">LLRBs, Hashing, Heaps</a>
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1HNpkgQ7YYcu-u295hGhW1x5Y-H0Iu8Lok9uktHVe6ac/edit?usp=sharing" target="blank">Slides</a><br>
+		</td>
+	</tr>
 
 </table>
-
 
 #### Archive
 * [Balanced Search Trees (Red Black Trees), Tries, Skip Lists - Slides/demo](https://docs.google.com/presentation/d/1vdcqju_lYHZsyyOsx9VibCF7gOf5vji8FbBvfvkICA8/edit?usp=sharing)
