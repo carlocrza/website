@@ -85,6 +85,14 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="https://docs.google.com/presentation/d/1u_uzUNR8PaN9_DBeJOXDJBLMvh10hG37dlM5SWCkqho/edit?usp=sharing" target="blank">Slides</a><br>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			DFS, BFS, Dijkstra's, A*, Prim's, Kruskal's
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1Vz9n1HrTLFHYWPtJPW6QDxCyj4QA3VRpuYEhRYpz5tk/edit?usp=sharing" target="blank">Slides + pseudocode</a><br>
+		</td>
+	</tr>
 </table>
 
 #### Archive
