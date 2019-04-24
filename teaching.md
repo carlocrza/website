@@ -93,6 +93,15 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="https://docs.google.com/presentation/d/1Vz9n1HrTLFHYWPtJPW6QDxCyj4QA3VRpuYEhRYpz5tk/edit?usp=sharing" target="blank">Slides + pseudocode</a><br>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			More Sorting
+		</td>
+		<td>
+			<a href="https://docs.google.com/presentation/d/1IW7xn_iN4_U7JSoG4FILkP5-h7hW2yLIy7VzSrBjgF4/edit?usp=sharing" target="blank">Slides</a><br>
+		</td>
+	</tr>
+
 </table>
 
 #### Archive
