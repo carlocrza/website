@@ -101,6 +101,15 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 			<a href="https://docs.google.com/presentation/d/1IW7xn_iN4_U7JSoG4FILkP5-h7hW2yLIy7VzSrBjgF4/edit?usp=sharing" target="blank">Slides</a><br>
 		</td>
 	</tr>
+		<tr>
+		<td>
+			Final Disc! Review and (fun) Problems
+		</td>
+		<td>
+			<a href="/disc14.pdf" target="blank">Worksheet</a><br>
+			<a href="/disc14sol.pdf">Solutions</a>
+		</td>
+	</tr>
 
 </table>
 
