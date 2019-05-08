@@ -223,7 +223,7 @@ plt.plot(np.arange(0, 7, 1), np.random.rand(7, 1))
 
 ![png](numpy_files/numpy_161_1.png)
 
-
+<!--
 ## Histograms
 _@author previous sections: Carlo Cruz-Albrecht_<br>
 _@author this section and below: Jun Seo Park_
@@ -699,4 +699,4 @@ sns.lmplot(x='petal_length', y='petal_width', hue='species', data=iris, fit_reg=
 
 
 
-![png](numpy_files/numpy_191_1.png)
+![png](numpy_files/numpy_191_1.png)-->
