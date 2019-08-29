@@ -4,7 +4,9 @@ title:  "Hi, I'm Carlo"
 subtitle: ""
 tags: jekyll update
 ---
-Greetings! I'm a Computer Science + Data Science double major at UC Berkeley and a TA for Berkeley's [Data Structures and Algorithms](http://inst.eecs.berkeley.edu/~cs61b/fa18/) course. 
+Greetings! I'm a Computer Science + Data Science student at UC Berkeley. 
+
+I also like to spend my time teaching. I'm currently an undergraduate student instructor for Berkeley's [Algorithms course](http://cs170.org) and have been a uGSI for CS 61B (Data Structures). 
 
 I'm passionate about CS education and fascinated by how social patterns influence technological progress. 
 
