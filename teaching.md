@@ -23,6 +23,8 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 ### Section Materials:
 
+[9/6/19: Maximum Subarray Sum in Linear Time](/170dis2)
+
 ---
 
 ## My Other Course Resources
