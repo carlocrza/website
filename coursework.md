@@ -15,6 +15,7 @@ Some key courses I've taken:
 * Computer Security
 * Linear Programming and Network Flows
 
+* Operating Systems
 * Machine Learning
 * Fundamentals of Data Science
 * Principles and Techniques of Data Science
