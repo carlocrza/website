@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Data 100 Materials"
+title:  "Data Science Materials"
 ---
 Both series are interactive (Jupyter Notebook) and come with programming exercises.
 

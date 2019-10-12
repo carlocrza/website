@@ -36,4 +36,4 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 ---
 ## Miscellaneous 
 [Introductory Python Tutorials](/cs61a)  
-[Python Libraries for Data Science Tutorials](/ds100)
+[Python Libraries for Data Science Tutorials](/ds)
