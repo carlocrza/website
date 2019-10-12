@@ -30,7 +30,7 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 ## My Other Course Resources
 **[CS 61B](/61b)** (Data Structures)  
-**[Data 100](/ds100)** (Principles + Techniques of Data Science)  
+**[Data 100](/ds)** (Principles + Techniques of Data Science)  
 **[CS 61A](/cs61a)** (Structure and Interpretation of Computer Programs)
 
 ---
