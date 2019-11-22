@@ -25,7 +25,7 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 [9/6/19: Maximum Subarray Sum in Linear Time](/170dis2)  
 [9/27/19: Dis 5 Slides (Dijkstra, Bellman Ford, Greedy Algorithms, MSTs)](https://docs.google.com/presentation/d/1F1QN1jPCeaV70aGrjvIBGkm4X_V36N5LN-8aEbtwzY8/edit?usp=sharing)
-[Dis 11: Reductions & Complexity Classes](https://docs.google.com/presentation/d/1pD5gK_ENKGLQKGP0YlqcTCbBAkIeA6LZWHE6moZVrRk/edit?usp=sharing)
+[Dis 11: Reductions & Complexity Classes](https://docs.google.com/presentation/d/1pD5gK_ENKGLQKGP0YlqcTCbBAkIeA6LZWHE6moZVrRk/edit?usp=sharing)  
 [Dis 12: Approximation Algorithms](https://docs.google.com/presentation/d/13Ff16w7ovYXL2hBHwgqw-jkpjbJOn8Ggr3Rm6zXa8PA/edit?usp=sharing)
 
 ---
