@@ -5,13 +5,14 @@ date:  2018-08-24
 tags: 
 ---
 ---
-## Fall 2019: CS 170
+## Spring 2020 - 61B
 
 <div style="line-height: 180%; padding: 5px 10px 0px 10px; border-radius: 5px; background-color: #F1F1F1">
 
 <table>
-	<tr><td><b>Discussion</b></td><td>Friday 11-12am, Dwinelle 109</td></tr>
-	<tr><td><b>Office Hours</b></td><td>Thursday 1-2pm, 411 Soda<br> <small><a href="https://cs170.org/schedule/calendar/">All office hours</a></small>
+	<tr><td><b>Discussion</b></td><td>Wed 10-11am Wheeler 108</td></tr>
+	<tr><td><b>Lab</b></td><td>Thurs 3-5pm Soda 277</td></tr>
+	<tr><td><b>Office Hours</b></td><td>Tuesday 3-4pm Morgan 109<br>Thursday 1-3pm Soda 271 <br> <small><a href="https://calendar.google.com/calendar/b/1/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=YmVya2VsZXkuZWR1X3ZoZGRqNTc1dHVjMDBob2oyc2twYzV1YzRzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=YmVya2VsZXkuZWR1XzV0dGNqN29tczBlaWNoYW80MTEzdDdtYmU4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=YmVya2VsZXkuZWR1X3I2Z29pcXVnaWNzZWNtZzcybDR1Nmtpb2Y4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=YmVya2VsZXkuZWR1X2c3NDJhaWlnNzJpZmIzbTFkbDNwZmd0dWZjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=YmVya2VsZXkuZWR1X3ZuOHU1aGF0NTFkbnR1azJlbTc0bDMzaWU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%235A9A08&color=%238A2D38&color=%23336699&color=%239D7000&color=%23402175&mode=WEEK&title=CS%2061B%20Office%20Hours">All office hours</a></small>
 </td></tr>
 </table>
 
@@ -23,17 +24,18 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 ### Section Materials:
 
-[9/6/19: Maximum Subarray Sum in Linear Time](/170dis2)  
-[9/27/19: Dis 5 Slides (Dijkstra, Bellman Ford, Greedy Algorithms, MSTs)](https://docs.google.com/presentation/d/1F1QN1jPCeaV70aGrjvIBGkm4X_V36N5LN-8aEbtwzY8/edit?usp=sharing)  
-[Dis 11: Reductions & Complexity Classes](https://docs.google.com/presentation/d/1pD5gK_ENKGLQKGP0YlqcTCbBAkIeA6LZWHE6moZVrRk/edit?usp=sharing)  
-[Dis 12: Approximation Algorithms](https://docs.google.com/presentation/d/13Ff16w7ovYXL2hBHwgqw-jkpjbJOn8Ggr3Rm6zXa8PA/edit?usp=sharing)
+|--------------|-------------|
+|      2 - Intro to Java      |      [Slides](https://docs.google.com/presentation/d/1KuUHjhJdfVghnj-5b9y8KILx4ML3vfuo0dcOFuNC7aw/edit?usp=sharing) <br> [dis1.java](/materials/dis1.java)       |
+|             |             |
+|             |             |
 
----
+
 
 ## My Other Course Resources
 **[CS 61B](/61b)** (Data Structures)  
 **[Data 100](/ds)** (Principles + Techniques of Data Science)  
-**[CS 61A](/cs61a)** (Structure and Interpretation of Computer Programs)
+**[CS 61A](/cs61a)** (Structure and Interpretation of Computer Programs)  
+**[CS 170](/cs170)** (Algorithms & Intractable Problems)
 
 ---
 ## Miscellaneous 
