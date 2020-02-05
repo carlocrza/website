@@ -26,7 +26,7 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 |--------------|-------------|
 |      2 - Intro to Java      |      [Slides](https://docs.google.com/presentation/d/1KuUHjhJdfVghnj-5b9y8KILx4ML3vfuo0dcOFuNC7aw/edit?usp=sharing) <br> [dis1.java](/materials/dis1.java)       |
-|             |             |
+|      2 - Intro to Java      |      [Slides](https://docs.google.com/presentation/d/1vMhs9htHpCd4Du-IqC4mUsH4yZ05dS5XTNS8ZGwAFx8/edit?usp=sharing) <br> [IntList.java](/materials/IntList.java)       |
 |             |             |
 
 
