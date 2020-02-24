@@ -26,8 +26,9 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 
 |--------------|-------------|
 |      2 - Intro to Java      |      [Slides](https://docs.google.com/presentation/d/1KuUHjhJdfVghnj-5b9y8KILx4ML3vfuo0dcOFuNC7aw/edit?usp=sharing) <br> [dis1.java](/materials/dis1.java)       |
-|      2 - Pointers      |      [Slides](https://docs.google.com/presentation/d/1vMhs9htHpCd4Du-IqC4mUsH4yZ05dS5XTNS8ZGwAFx8/edit?usp=sharing) <br> [IntList.java](/materials/IntList.java)       |
-|      3 - Inheritance (exam prep)      |      [Slides](https://docs.google.com/presentation/d/1NWluekE7Yp_LxQMPmg0u6FGg_SsDAdCNJFOwew9XOGw/edit?usp=sharing) |
+|      3 - Pointers      |      [Slides](https://docs.google.com/presentation/d/1vMhs9htHpCd4Du-IqC4mUsH4yZ05dS5XTNS8ZGwAFx8/edit?usp=sharing) <br> [IntList.java](/materials/IntList.java)       |
+|      4 - Objects (exam prep)      |      [Slides](https://docs.google.com/presentation/d/1NWluekE7Yp_LxQMPmg0u6FGg_SsDAdCNJFOwew9XOGw/edit?usp=sharing) |
+|      5 - Inheritance (exam prep)      |      [Slides](https://docs.google.com/presentation/d/14voC3z2YAJ4MwJzifQ7DZOB4aESMouuevfan0-u33ZY/edit?usp=sharing) |
 
 ## My Other Course Resources
 **[CS 61B](/61b)** (Data Structures)  
