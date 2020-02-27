@@ -29,7 +29,7 @@ Anonymous Feedback/Contact: [carloc.me/feedback](http://carloc.me/feedback.html)
 |      3 - Pointers      |      [Slides](https://docs.google.com/presentation/d/1vMhs9htHpCd4Du-IqC4mUsH4yZ05dS5XTNS8ZGwAFx8/edit?usp=sharing) <br> [IntList.java](/materials/IntList.java)       |
 |      4 - Objects (exam prep)      |      [Slides](https://docs.google.com/presentation/d/1NWluekE7Yp_LxQMPmg0u6FGg_SsDAdCNJFOwew9XOGw/edit?usp=sharing) |
 |      5 - Inheritance (exam prep)      |      [Slides](https://docs.google.com/presentation/d/14voC3z2YAJ4MwJzifQ7DZOB4aESMouuevfan0-u33ZY/edit?usp=sharing) |
-|      5 - Exam Review (exam prep)      |      [Slides](https://docs.google.com/presentation/d/1o1PNx3MGgkSuvMaym_JR-3wK6xWhBxXO2U8G-81yvQ8/edit?usp=sharingg) |
+|      5 - Exam Review (exam prep)      |      [Slides](https://docs.google.com/presentation/d/1o1PNx3MGgkSuvMaym_JR-3wK6xWhBxXO2U8G-81yvQ8/edit?usp=sharingg), [java demo](/materials/sp20dis6javademo.zip) |
 
 ## My Other Course Resources
 **[CS 61B](/61b)** (Data Structures)  
