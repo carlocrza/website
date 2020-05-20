@@ -6,7 +6,7 @@ tags: jekyll update
 ---
 Greetings! I'm a recent Computer Science + Data Science graduate from UC Berkeley. 
 
-During my undergraduate years I was a undergrad student instructor (uGSI) for Berkeley's Data Structures course (CS61B) and upper div Algorithms course (CS170). You can find most of my teaching materials under [Teaching](/teaching).
+During my undergrad years I was an undergraduate student instructor (uGSI) for Berkeley's Data Structures course (CS61B) and upper div Algorithms course (CS170). You can find most of my teaching materials under [Teaching](/teaching).
 
 I'm passionate about CS education and fascinated by how social patterns influence technological progress.  
 
