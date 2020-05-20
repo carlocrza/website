@@ -16,7 +16,7 @@
 title: Carlo Cruz-Albrecht
 email: carlo@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Greetings! I'm a CS + Data Science double major at UC Berkeley and a TA for Berkeley's Data Structures and Algorithms course. Poke around for things I've done and teaching materials.
+  Greetings! I'm a recent Computer Science + Data Science graduate from UC Berkeley.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  carlocrza
@@ -30,6 +30,8 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-feed
+
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

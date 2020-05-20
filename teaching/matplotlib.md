@@ -11,7 +11,7 @@ tags:
 
 Matplotlib is a ubiquitious plotting library for python with infinite customization. Seaborn allows you to make graphs very quickly and beautifully though with less modification options. Both are very compatible with pandas and numpy.
 
-To best learn the material, I recommend using Jupyter Notebook to play with the code and exercises yourself! Jupyter Notebooks allow you to write text and run python code in the same document. [Download the notebook](https://cdn.rawgit.com/carlocrza/Data_Science_Society/b180c281/Python_Libraries_Workshop.ipynb).
+To best learn the material, I recommend using Jupyter Notebook to play with the code and exercises yourself! Jupyter Notebooks allow you to write text and run python code in the same document. [Download the notebook](materials/python_libraries.ipynb).
 
 Install jupyter:
 ```

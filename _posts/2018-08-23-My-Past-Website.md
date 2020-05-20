@@ -14,4 +14,4 @@ It's taken me some time to learn that the hard-work, brute force approach isn't 
 
 If you want, you can check out the old site below. I'll miss it but I'm also glad to say good riddance.
 
-[carloc.me/website](/website)
+[carloc.me/website](/old)

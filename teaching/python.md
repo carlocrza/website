@@ -10,7 +10,7 @@ Today, you'll learn how to:
 4. break down Python code into smaller parts to understand it.
 
 # 1. Jupyter notebooks
-This webpage looks like a Jupyter notebook. A notebook is a place to write programs and view their results. You could write programs in a text file if you want, but it's nice to do it in a notebook like this because you can share it with others! To run this notebook, first **[download it here](/python.ipynb).**
+This webpage looks like a Jupyter notebook. A notebook is a place to write programs and view their results. You could write programs in a text file if you want, but it's nice to do it in a notebook like this because you can share it with others! To run this notebook, first **[download it here](materials/python.ipynb).**
 
 You can then upload it to Google Drive and run it there using [Colaboratory](https://colab.research.google.com/). 
 

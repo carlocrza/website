@@ -4,17 +4,13 @@ title:  "Hi, I'm Carlo"
 subtitle: ""
 tags: jekyll update
 ---
-Greetings! I'm a Computer Science + Data Science student at UC Berkeley. 
+Greetings! I'm a recent Computer Science + Data Science graduate from UC Berkeley. 
 
-I also like to spend my time teaching. I'm an undergraduate student instructor for Berkeley's Data Structure's course and have been a uGSI for CS 170 (Algorithms) in the past. 
+During my undergraduate years I was a undergrad student instructor (uGSI) for Berkeley's Data Structures course (CS61B) and upper div Algorithms course (CS170). You can find most of my teaching materials under [Teaching](/teaching).
 
-I'm passionate about CS education and fascinated by how social patterns influence technological progress. 
+I'm passionate about CS education and fascinated by how social patterns influence technological progress.  
 
-Feel free to poke around to see what I've been up to.
-
-If you want to get in touch, drop me a line at **carlo** at **berkeley.edu**
-
----
-**Students:** see [Teaching](/teaching) for my teaching hours, lecture slides, and other resources.  
-
-<!--[Discussion Attendance](/dis)-->
+If you want to get in touch, drop me a line at
+<img style="vertical-align: middle" height="20" src="files/contact/contact1.png"/>
+<img style="vertical-align: middle" height="20" src="files/contact/contact2.png"/>
+<img style="vertical-align: middle" height="20" src="files/contact/contact3.png"/>

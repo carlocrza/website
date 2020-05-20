@@ -226,7 +226,7 @@ button:hover {
 	margin-bottom: 50px;
 	width: 90%;
 	max-width: 800px;
-	min-height: 300px
+	min-height: 300px;
 }
 
 #travel_container {
@@ -257,6 +257,8 @@ div.desc {
 	width: 90%;
 	max-width: 800px;
 }
+
+
 
 #links_container a {
 	padding: 10px 10px 10px 10px;

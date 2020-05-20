@@ -2,7 +2,7 @@
 layout: default
 title:  "Python 2: Names, Functions, and Frames"
 ---
-> Download [this notebook](/python2.ipynb) and run it interactively to play with the code yourself! [See instructions here](/python)
+> Download [this notebook](materials/python2.ipynb) and run it interactively to play with the code yourself! [See instructions here](python)
 
 Today, you'll learn:
 

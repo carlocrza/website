@@ -1,8 +1,7 @@
 #!/bin/bash
 
-cd '/Users/Carlo/Documents/ Webcoding Experiments/new_website/website'
+cd '/Users/Carlo/Documents/website'
 bash redirect.sh $1 > "$2.md"
 git add "$2.md"
 git commit -m "Making shortcut: carloc.me/$2 --> $1"
 git push origin master
-
