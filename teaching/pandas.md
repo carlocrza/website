@@ -10,8 +10,6 @@ tags:
 
 Pandas is a useful python library for data manipulation and analysis.
 
-To best learn the material, I recommend using Jupyter Notebook to play with the code and exercises yourself! Jupyter Notebooks allow you to write text and run python code in the same document. [Download the notebook](materials/python_libraries.ipynb).
-
 Install jupyter:
 ```
 pip3 install jupyter
