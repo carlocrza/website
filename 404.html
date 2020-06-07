@@ -21,28 +21,37 @@ layout: default
 
   <h4 id="pageDoesNotExist">That page does not exist!</h4>
   <img src="https://media1.tenor.com/images/4a950a1e221d93e654047ecee711af5a/tenor.gif?itemid=8105026" width="150" />
-  <p>Try checking that you've typed the correct URL.</p>
 
-  <p>More likely I have a broken link. Oops! If so, I'll fix this shortly (this address has been logged).</p>
-  <!-- <p>Clicking the button below automatically lets me know this url so I can look into it. Thanks!</p> -->
+</div>
+  <p>Try checking you've typed the correct URL.</p>
 
-  <form name="myForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post" onsubmit="onSubmitFunc()">
+  <p>More likely I have a broken link. Oops! If so you can help me out by clicking the button below which automaticaly lets me know. Thanks!</p>
+  
+  <form name="autoForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post">
     <input type='hidden' name='redirect_to'/>
     <!-- <input type="hidden" name="url"> -->
     <!-- <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="Let me know" onclick="submitForm()" id="submit"> -->
   </form>
 
-  <!-- <p id="thank-you" style="visibility: hidden">Got it, thanks!</p> -->
-      
-</div>
+  <form name="manualForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post" onsubmit="onSubmitFunc()">
+    <input type='hidden' name='redirect_to'/>
+    <input type="hidden" name="manual">
+    <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="I got to this page by clicking a link" id="submit">
+  </form>
 
+  <p id="thank-you" style="visibility: hidden">Got it, thanks!</p>
+      
 <script>
-  // function onSubmitFunc() {
-  //   // document.myForm.url.value = window.location;
-  //   console.log("here");
-  //   document.myForm.redirect_to.value = window.location.href; //.concat("#thank-you");
-  //   return true;
-  // }
+  function onSubmitFunc() {
+    let url = window.location.href;
+    let n = url.indexOf("#404");
+    if (n != -1) {
+      url = url.substring(0, n);
+    }
+    document.manualForm.redirect_to.value = url.concat("#404ty");
+    document.manualForm.manual.value = "manual";
+    return true;
+  }
   window.onload = (function(){
     let url = window.location.href;
     let n = url.indexOf("#404");
@@ -50,18 +59,12 @@ layout: default
       url = url.substring(0, n);
     }
     document.getElementById("pageDoesNotExist").innerHTML = url.concat(" does not exist!");
-    if (window.location.hash != "#404") {
-      document.myForm.redirect_to.value = window.location.href.concat("#404");
-      document.myForm.submit();
+    if (window.location.hash == "#404ty") {
+      document.getElementById("thank-you").style.visibility = "visible";
+    }
+    if (window.location.href.indexOf("#404") == -1) {
+      document.autoForm.redirect_to.value = window.location.href.concat("#404");
+      document.autoForm.submit();
     }
   });
-  /*
-  window.onload = (function(){
-    if (window.location.hash == '#thank-you'){
-      document.getElementById('thank-you').style.visibility = 'visible';
-      document.getElementById("submit").disabled = true;
-      document.getElementById("submit").style.backgroundColor = "#c9c9c9";
-    }
-  });
-  */
 </script>
