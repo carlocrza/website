@@ -32,6 +32,7 @@ plugins:
   - jekyll-feed
 
 highlighter: rouge
+google_analytics: UA-169189642-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
