@@ -1,3 +1,15 @@
+---
+layout: default
+title: Testing
+---
+Hi! If you've stumbled upon this page feel free to ignore!
+
+A dead link: [click me](/thislinkshouldbea404error)
+
+
+---
+# Markdown Demo
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
