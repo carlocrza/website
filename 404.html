@@ -1,8 +1,10 @@
 ---
 layout: default
+title: 404 Page Not Found
+displaytitle: false
 ---
 
-<style type="text/css" media="screen">
+<style>
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -14,33 +16,58 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  #button {
+    color: white;
+    border: none;
+    background-color: #267CB9;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px
+  }
+  #button:hover {
+    background-color: #206ba1;
+  }
+  #pageDoesNotExist {
+    font-size: 10px;
+    /*animation-name: url;
+    animation-duration: 4s;*/
+  }
+  /*@keyframes url {
+    from {color: white;}
+    to {color: unset;}
+  }*/
 </style>
 
 <div class="container">
   <h1 id="gone">404</h1>
 
-  <h4 id="pageDoesNotExist">That page does not exist!</h4>
+  <h4 style="margin-bottom: 2px">That page does not exist!</h4>
+  <p id="pageDoesNotExist">.</p>
   <img src="https://media1.tenor.com/images/4a950a1e221d93e654047ecee711af5a/tenor.gif?itemid=8105026" width="150" />
 
 </div>
-  <p>Try checking you've typed the correct URL.</p>
 
-  <p>More likely I have a broken link. Oops! If so you can help me out by clicking the button below which automaticaly lets me know. Thanks!</p>
-  
-  <form name="autoForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post">
-    <input type='hidden' name='redirect_to'/>
-    <!-- <input type="hidden" name="url"> -->
-    <!-- <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="Let me know" onclick="submitForm()" id="submit"> -->
-  </form>
+<p>Try checking you've typed the correct URL.</p>
 
+<p>More likely I have a broken link on my site (oops!). If so, you can tell me by clicking the button below which automaticaly lets me know. Thanks!</p>
+
+{% if jekyll.environment == 'production' %}
+<form name="autoForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post">
+  <input type='hidden' name='redirect_to'/>
+  <!-- <input type="hidden" name="url"> -->
+  <!-- <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="Let me know" onclick="submitForm()" id="submit"> -->
+</form>
+{% endif %}
+
+<center>
   <form name="manualForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post" onsubmit="onSubmitFunc()">
     <input type='hidden' name='redirect_to'/>
     <input type="hidden" name="manual">
-    <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="I got to this page by clicking a link" id="submit">
+    <input type="submit" value="I got here by clicking a link on this site" id="button">
   </form>
-
   <p id="thank-you" style="visibility: hidden">Got it, thanks!</p>
-      
+</center>
+
 <script>
   function onSubmitFunc() {
     let url = window.location.href;
@@ -58,9 +85,10 @@ layout: default
     if (n != -1) {
       url = url.substring(0, n);
     }
-    document.getElementById("pageDoesNotExist").innerHTML = url.concat(" does not exist!");
+    document.getElementById("pageDoesNotExist").innerHTML = url.concat(" not found");
     if (window.location.hash == "#404ty") {
       document.getElementById("thank-you").style.visibility = "visible";
+      document.getElementById("button").style.backgroundColor = "#d6d6d6";
     }
     if (window.location.href.indexOf("#404") == -1) {
       document.autoForm.redirect_to.value = window.location.href.concat("#404");

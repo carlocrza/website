@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  "Teaching"
+title:  Teaching
 date:  2018-08-24
-tags: 
 ---
 ## Data Structures (CS61B)
 Here's a compilation of most of my 61B materials from my four times TAing the course.
