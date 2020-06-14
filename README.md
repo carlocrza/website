@@ -1,3 +1,5 @@
-# personal website
+# carloc.me
 
-Created using a modified version of the [minimal jekyll theme](https://github.com/pages-themes/minimal).
+This is the source of my person website found at [carloc.me](https://carloc.me).
+
+Created with Jekyll using a modified [minimal theme](https://github.com/pages-themes/minimal).
