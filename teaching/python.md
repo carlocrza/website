@@ -89,9 +89,6 @@ print("This line is missing something."
 
 OOPS! we are missing a parenthesis.
 
-<img src="http://datahub.berkeley.edu/user/carlo/files/materials-sp18/materials/sp18/lab/lab01/error.jpg">
-
-
 ```python
 # use the hashtag to make a comment!
 ```

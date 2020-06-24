@@ -18,5 +18,3 @@ tags: jekyll update
 		</td>
 	</tr>
 </table>
-
-<!--{: style="border: 0px solid white"}-->
