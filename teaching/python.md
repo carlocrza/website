@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "Introductory Python Tutorial 😮🐍"
+tags: cs61a, python
+redirect_from: /python
 ---
 Today, you'll learn how to:
 

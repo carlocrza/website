@@ -6,15 +6,22 @@ displaytitle: false
 
 <style>
   .container {
-    margin: 10px auto;
-    max-width: 600px;
     text-align: center;
   }
-  #gone {
-    margin: 30px 0;
+  #fourOHfour {
     font-size: 4em;
-    line-height: 1;
     letter-spacing: -1px;
+  }
+  #current_page_url {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .container img {
+    margin-bottom: 5px;
+  }
+
+  .manualDiv {
+    text-align: center;
   }
   #button {
     color: white;
@@ -22,77 +29,74 @@ displaytitle: false
     background-color: #267CB9;
     border-radius: 4px;
     font-size: 14px;
-    padding: 10px 10px 10px 10px
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
   }
   #button:hover {
     background-color: #206ba1;
   }
-  #pageDoesNotExist {
-    font-size: 10px;
-    /*animation-name: url;
-    animation-duration: 4s;*/
-  }
-  /*@keyframes url {
-    from {color: white;}
-    to {color: unset;}
-  }*/
 </style>
 
 <div class="container">
-  <h1 id="gone">404</h1>
+  <h1 id="fourOHfour">404</h1>
 
   <h4 style="margin-bottom: 2px">That page does not exist!</h4>
-  <p id="pageDoesNotExist">.</p>
-  <img src="https://media1.tenor.com/images/4a950a1e221d93e654047ecee711af5a/tenor.gif?itemid=8105026" width="150" />
-
+  <small id="current_page_url">.</small>
+  <img src="https://media1.tenor.com/images/4a950a1e221d93e654047ecee711af5a/tenor.gif?itemid=8105026" width="100" />
 </div>
 
-<p>Try checking you've typed the correct URL.</p>
-
-<p>More likely I have a broken link on my site (oops!). If so, you can tell me by clicking the button below which automaticaly lets me know. Thanks!</p>
+<p>If you got to this page by clicking another link on my site (sorry!) clicking the button below will automatically let me know. Thanks!</p>
 
 {% if jekyll.environment == 'production' %}
 <form name="autoForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post">
+  <input type="hidden" name="referrer"/>
   <input type='hidden' name='redirect_to'/>
-  <!-- <input type="hidden" name="url"> -->
-  <!-- <input style="background-color: #267CB9; border: none; color: white; font-size: 14px; padding: 10px 10px 10px 10px" type="submit" value="Let me know" onclick="submitForm()" id="submit"> -->
 </form>
-{% endif %}
 
-<center>
+<div class="manualDiv">
   <form name="manualForm" action="https://getsimpleform.com/messages?form_api_token=2f820e51c4aeb061e56e62a2077ef0fc" method="post" onsubmit="onSubmitFunc()">
     <input type='hidden' name='redirect_to'/>
     <input type="hidden" name="manual">
     <input type="submit" value="I got here by clicking a link on this site" id="button">
   </form>
-  <p id="thank-you" style="visibility: hidden">Got it, thanks!</p>
-</center>
+  <p id="404ty" style="visibility: hidden">Got it, thanks!</p>
+</div>
+{% endif %}
 
 <script>
-  function onSubmitFunc() {
-    let url = window.location.href;
-    let n = url.indexOf("#404");
-    if (n != -1) {
-      url = url.substring(0, n);
+  function stripHash(s) {
+    const n = s.indexOf("#");
+    if (n === -1) {
+      return s;
     }
+    return s.substring(0, n);
+  }
+  
+  function onSubmitFunc() {
+    let url = stripHash(window.location.href);
     document.manualForm.redirect_to.value = url.concat("#404ty");
-    document.manualForm.manual.value = "manual";
+    document.manualForm.manual.value = "clicked";
     return true;
   }
+  
   window.onload = (function(){
+    // reload to #404 if a hash doesn't start with #404
     let url = window.location.href;
-    let n = url.indexOf("#404");
-    if (n != -1) {
-      url = url.substring(0, n);
+    if (url.indexOf("#404") === -1) {
+      if (document.autoForm !== undefined) {
+        document.autoForm.redirect_to.value = url.concat("#404");
+        document.autoForm.referrer.value = document.referrer;
+        document.autoForm.submit();
+      }
     }
-    document.getElementById("pageDoesNotExist").innerHTML = url.concat(" not found");
-    if (window.location.hash == "#404ty") {
-      document.getElementById("thank-you").style.visibility = "visible";
+
+    url = stripHash(window.location.href);
+    document.getElementById("current_page_url").innerHTML = url.concat(" not found");
+    if (window.location.hash === "#404ty") {
+      document.scrollTop = document.scrollHeight;
+      document.getElementById("404ty").style.visibility = "visible";
       document.getElementById("button").style.backgroundColor = "#d6d6d6";
-    }
-    if (window.location.href.indexOf("#404") == -1) {
-      document.autoForm.redirect_to.value = window.location.href.concat("#404");
-      document.autoForm.submit();
+      document.getElementById("button").disabled = true;
     }
   });
 </script>

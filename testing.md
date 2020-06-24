@@ -7,6 +7,16 @@ Hi! If you've stumbled upon this page feel free to ignore!
 A dead link: [click me](/thislinkshouldbea404error)
 
 ---
+# Liquid
+strip leading http(s)://www. = \{\{ page.whatever | remove:'http://' | remove:'https://' | remove:'www.' \}\}
+
+e.g. {{'' | append: site.url | append: page.url | remove: 'http://' | remove:'https://' | remove:'www.' }}
+
+if site.github.is_project_page   
+site.github.owner_url   
+site.github.owner_name
+
+---
 # Lab 2
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Discussion 1
+tags: java, cs61b
+redirect_from: /disc1
 ---
 ### Compilation
 Java is a compiled language. This means that we must compile the java **source code** into **byte code** that the computer *(Java Virtual Machine)* can read.

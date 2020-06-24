@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Python Libraries: Numpy Tutorial"
-date: 
-tags: 
+tags: python, numpy
+redirect_from: /numpy
 ---
 ## How to Use Numpy for Datascience
 > <img width="100" src="http://rickizzo.com/images/posts/2017-12-19/numpy.jpeg"/><br>

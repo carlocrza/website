@@ -4,70 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="shortcut icon" type="image/png" href="{{ "/assets/img/penguin.png" | prepend: site.baseurl }}"> 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include analytics.html %}
-    {% endif %}
+    {% seo %}
+    {% include head.html %}
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1 style="font-family: Roboto Mono"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      {% include header.html %}
+      <section>
+        {% if page.subtitle %}
+        <small>{{ page.subtitle }}</small>
+        {% endif %}
 
-        <!--<p></p>-->
-        <div id="navigation">
-        <a id="tab" href="/">About</a><br>
-        <a id="tab" href="/teaching">Teaching</a><br>
-        <a id="tab" href="/resume">Resume</a><br>
-        <a id="tab" href="/contact">Contact</a>
-        </div>
-
-        {% if site.logo and page.title == "Hi, I'm Carlo" %}
-          <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+        {% if page.title and page.displaytitle != false %}
+        <h1>{{ page.title }}</h1>
         {% endif %}
         
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        <!--{% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}-->
-      </header>
-      <section>
-
-      {% if page.subtitle %}
-      <small>{{ page.subtitle }}</small>
-      {% endif %}
-
-      {% if page.title and page.displaytitle != false %}
-      <h1>{{ page.title }}</h1>
-      {% endif %}
-
-      {{ content }}
-
+        {{ content }}
       </section>
-
-      <footer>
-      
-
-        <a href="/contact" class="fa fa-envelope"></a>
-        <a href="https://www.linkedin.com/in/carlocruz-albrecht/" class="fa fa-linkedin"></a>
-       <a href="http://github.com/carlocrza/" class="fa fa-github"></a>
-
-
-        <!--{% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Carlo Cruz-Albrecht</small></p>-->
-      </footer>
+      {% include footer.html %}
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

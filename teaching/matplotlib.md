@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Python Libraries: Matplotlib and Seaborn Tutorial"
-date: 
-tags: 
+tags: python, matplotlib, numpy
+redirect_from: /matplotlib
 ---
 ## How to Use Matplotlib and Seaborn for Datascience
 > <img width="140" src="http://austringer.net/images/biosonar/wfall_demo.png"/><br>

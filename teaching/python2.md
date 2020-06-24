@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  "Python 2: Names, Functions, and Frames"
+tags: python, cs61a
+redirect_from: /python2
 ---
 > Download [this notebook](materials/python2.ipynb) and run it interactively to play with the code yourself! [See instructions here](python)
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 title:  "Casting: compiler and runtime errors"
-tags: java
+tags: java, cs61b
 highlighter: rouge
+redirect_from: /casting
 ---
 
 Both compiler errors *and* runtime errors can occur in regards to casting.

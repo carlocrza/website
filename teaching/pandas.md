@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Python Libraries: Pandas Tutorial"
-date: 
-tags: 
+tags: python, pandas
+redirect_from: /pandas
 ---
 ## How to Use Pandas for Datascience
 > <img width="60" src="http://worldartsme.com/images/chinese-panda-clipart-1.jpg"/><br>

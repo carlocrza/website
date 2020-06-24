@@ -30,6 +30,7 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 highlighter: rouge
 google_analytics: UA-169189642-1
