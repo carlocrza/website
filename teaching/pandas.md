@@ -33,11 +33,6 @@ import pandas as pd
 A table is called a ['dataframe'](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) in Pandas. Consider the table `fruit_info`:
 
 <style>
-    .table_wrapper {
-      max-width: 100vw;
-      overflow-x: scroll;
-      color: red;
-    }
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -126,7 +121,7 @@ fruit_info
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -259,7 +254,7 @@ fruit_info
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -371,7 +366,7 @@ fruit_info_without_color
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -435,7 +430,7 @@ Let's display the table. We can just type `baby_names` and run the cell but baby
 baby_names.head(5)
 ```
 
-<div class="table_wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -525,7 +520,7 @@ baby_names.loc[2:8, ['Name', "Count"]]
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -586,7 +581,7 @@ baby_names.loc[1000:1005, ['Name']]
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -635,7 +630,7 @@ baby_names.loc[:, ['Sex', 'Name']].head(4)
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -707,7 +702,7 @@ fruit_info
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -763,7 +758,7 @@ fruit_info[selection]
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -810,7 +805,7 @@ baby_names[condition].head(5)
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -888,7 +883,7 @@ result.head(3)
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -949,7 +944,7 @@ baby_names[equalto_Carlo].head(5)
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1123,7 +1118,7 @@ carlos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1181,7 +1176,7 @@ junseos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1237,7 +1232,7 @@ carlos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1293,7 +1288,7 @@ fruit_info
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1356,7 +1351,7 @@ junseos_fruits[junseos_fruits['fruit'] == 'apple']
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1390,7 +1385,7 @@ junseos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1461,7 +1456,7 @@ junseos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1516,7 +1511,7 @@ junseos_fruits
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1606,7 +1601,7 @@ yearly_data.head(5)
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1668,7 +1663,7 @@ yearly_data.head()
 
 
 
-<div class="table-wrapper">
+<div style="max-width: 100vw; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
