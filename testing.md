@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Testing
+noindex: true
 ---
 Hi! If you've stumbled upon this page feel free to ignore!
 
