@@ -32,8 +32,26 @@ import pandas as pd
 
 A table is called a ['dataframe'](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe) in Pandas. Consider the table `fruit_info`:
 
+<style>
+    .table_wrapper {
+      max-width: 100vw;
+      overflow-x: scroll;
+      color: red;
+    }
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
 
+    .dataframe thead th {
+        text-align: left;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+
+<div class="table_wrapper">
 <table border="1" class="dataframe">
   <thead><tr><td>**color**</td><td>**fruit**</td></tr></thead>
 <tr><td>red</td><td>apple</td></tr>
@@ -41,6 +59,7 @@ A table is called a ['dataframe'](http://pandas.pydata.org/pandas-docs/stable/ds
 <tr><td>yellow</td><td>banana</td></tr>
 <tr><td>pink</td><td>raspberry</td></tr>
 </table>
+</div>
 
 ## Pandas Series
 
@@ -107,20 +126,7 @@ fruit_info
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -202,20 +208,7 @@ fruit_info_again
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table_wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -266,20 +259,7 @@ fruit_info
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -331,21 +311,7 @@ fruit_info  # should now include a rating column
 
 
 
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div style="max-width: 100%; overflow-x: scroll;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -405,20 +371,7 @@ fruit_info_without_color
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -465,7 +418,7 @@ Time to use a real dataset!
 
 You can read a `.csv` file into pandas using `pd.read_csv( url )`.
 
-Create a variable called `baby_names` that loads this data: `https://raw.githubusercontent.com/carlocrza/Data_Science_Society/master/ca_baby_names.csv`
+Create a variable called `baby_names` that loads this data: [https://raw.githubusercontent.com/carlocrza/Data_Science_Society/master/baby_names.csv](https://raw.githubusercontent.com/carlocrza/Data_Science_Society/master/baby_names.csv)
 
 
 
@@ -478,28 +431,11 @@ Let's display the table. We can just type `baby_names` and run the cell but baby
 
 `DataFrame.head( # of rows )`
 
-
 ```python
 baby_names.head(5)
 ```
 
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table_wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -589,20 +525,7 @@ baby_names.loc[2:8, ['Name', "Count"]]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -663,20 +586,7 @@ baby_names.loc[1000:1005, ['Name']]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -725,20 +635,7 @@ baby_names.loc[:, ['Sex', 'Name']].head(4)
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -810,20 +707,7 @@ fruit_info
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -879,20 +763,7 @@ fruit_info[selection]
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -939,20 +810,7 @@ baby_names[condition].head(5)
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1030,20 +888,7 @@ result.head(3)
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1104,20 +949,7 @@ baby_names[equalto_Carlo].head(5)
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1291,20 +1123,7 @@ carlos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1362,20 +1181,7 @@ junseos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1431,20 +1237,7 @@ carlos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1500,20 +1293,7 @@ fruit_info
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1576,20 +1356,7 @@ junseos_fruits[junseos_fruits['fruit'] == 'apple']
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1623,20 +1390,7 @@ junseos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1707,20 +1461,7 @@ junseos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1775,20 +1516,7 @@ junseos_fruits
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1878,20 +1606,7 @@ yearly_data.head(5)
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1953,20 +1668,7 @@ yearly_data.head()
 
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
+<div class="table-wrapper">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
