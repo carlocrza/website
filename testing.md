@@ -16,6 +16,11 @@ e.g. {{'' | append: site.url | append: page.url | remove: 'http://' | remove:'ht
 if site.github.is_project_page   
 site.github.owner_url   
 site.github.owner_name
+site.github.repository_url
+
+{% if site.logo and page.title == "Hi, I'm Carlo" %}
+  <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+{% endif %}
 
 ---
 # Lab 2

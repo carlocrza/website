@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding: 50px 50px 40px 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -198,6 +198,85 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.fa {
+  padding: 7px;
+  font-size: 14px;
+  color: white;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100px
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.fa-envelope {
+  background: #999;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #999;
+  color: white;
+}
+
+.fa-github {
+  background: #999;
+  color: white;
+}
+
+#navigation {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  list-style-type: none;
+  font-weight: 900;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tab:hover {
+  animation-name: slide;
+  animation-duration: .2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {margin-left: 0px;}
+  to {margin-left: 5px; }
+}
+
+#out {
+  background-color: white; /*#fcfcfc;*/
+  color: black; 
+  border: none;
+}
+
+#logo {
+  width: 80%;
+  max-width: 230px;
+  border-radius: 20%;
+  padding-top: 0px;
+  padding-bottom: 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home_page_picture {
+  max-width: 200px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -212,12 +291,12 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    // padding-right:320px;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    // border:1px solid #e5e5e5;
+    // border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -230,6 +309,19 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  #navigation {
+    margin-left: 0px;
+    word-spacing: 10px;
+  }
+
+  #navigation li {
+    display: inline;
+  }
+
+  .tab:hover {
+    animation: none;
   }
 }
 
@@ -263,6 +355,19 @@ footer {
   .downloads li, .downloads li + li + li {
     width:33%;
   }
+
+  #home_page_picture {
+    max-width: 190px;
+  }
+}
+
+@media print, screen and (max-width: 390px) {
+  #navigation {
+    word-spacing: 0px;
+  }
+  #home_page_picture {
+    max-width: 170px;
+  }
 }
 
 @media print {
@@ -271,75 +376,4 @@ footer {
     font-size:12pt;
     color:#444;
   }
-}
-
-
-.fa {
-  padding: 7px;
-  font-size: 14px;
-  color: white;
-  width: 15px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 100px
-}
-
-.fa:hover {
-    opacity: 0.7;
-    color: white;
-}
-
-.fa-envelope {
-  background: #999;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #999;
-  color: white;
-}
-
-.fa-github {
-  background: #999;
-  color: white;
-}
-
-#navigation {
-  margin-left: 10px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  list-style-type: none;
-  font-weight: 900;
-  font-family: 'Roboto Mono', monospace;
-}
-
-#tab:hover {
-  animation-name: slide;
-  animation-duration: .2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slide {
-  from {margin-left: 0px;}
-  to {margin-left: 5px; }
-}
-
-#out {
-  background-color: white; /*#fcfcfc;*/
-  color: black; 
-  border: none;
-}
-
-#logo {
-  width: 80%;
-  max-width: 230px;
-  border-radius: 20%;
-  padding-top: 0px;
-  padding-bottom: 10px;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
